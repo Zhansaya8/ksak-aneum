@@ -19,8 +19,8 @@ export default function Admin() {
   const [unlocked, setUnlocked] = useState(() => sessionStorage.getItem(SESSION_KEY) === '1');
 
   useEffect(() => {
-    document.title = 'Admin · An음';
-    return () => { document.title = 'KSAK · An음'; };
+    document.title = 'Admin · Än음';
+    return () => { document.title = 'KSAK · Än음'; };
   }, []);
 
   return unlocked ? <ControlPanel onLock={() => { sessionStorage.removeItem(SESSION_KEY); setUnlocked(false); }} />
