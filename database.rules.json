@@ -1,0 +1,17 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "live": {
+      ".read": true,
+      "currentSongId": {
+        ".write": true,
+        ".validate": "newData.isString() && newData.val().length <= 60 || !newData.exists()"
+      },
+      "updatedAt": {
+        ".write": true,
+        ".validate": "newData.isNumber() || !newData.exists()"
+      }
+    }
+  }
+}
