@@ -125,6 +125,34 @@ const daiynbyzBa_bridge = {
  Open only to you.`,
 };
 
+const unaidyMagan_chorus = {
+  label: 'Chorus',
+  original: `Ұнайды маған еркелеткен сөздерің
+Ұнайды маған жалын атқан көздерің
+Ұнайды маған бір өзіңмен сырласқан
+Ұнайды, ұнайды, ұнайды маған
+`,
+  translation: `I like the way you speak so sweetly.
+ I like the fire shining in your eyes.
+ I like sharing secrets with you alone.
+ I like you, I like you, I like you.
+`,
+};
+
+const shyrailym_chorus = {
+  label: 'Chorus',
+  original: `Шыр-шыр-шыр-шыр-шыр Шырайлым Шырайлым
+Шыр-шыр-шыр-шыр-шыр Шырайлым Шырайлым
+Шыр-шыр-шыр-шыр-шыр Шолпандай
+Гүлде-де-де-дейсін, де-де-де-дейсін сен
+`,
+  translation: `Shyr-shyr-shyr-shyr-shyr, my radiant one…
+ Shyr-shyr-shyr-shyr-shyr, my radiant one…
+ Like a shining star,
+ You bloom like a flower, you bloom…
+`,
+};
+
 export const songs = [
   /* ───────────────────────── SONG 1 ───────────────────────── */
   {
@@ -287,8 +315,27 @@ Don't come crying now; don't show me your hurt.
  Everything is crystal clear. Take off your mask.
 `,
       },
-      betperde_chorus,
-      betperde_chorus,
+      {
+  label: 'Chorus x2',
+  original: `Сен
+Кетуге болдың жылдам
+Жасадым оң бір қадам
+Қаламадым сенің кеткеніңді
+Мен
+Болдым сезіміңе алдам
+Бірақ сезімін сенің жалған
+Көрсеттің тек қана бетпердеңді
+`,
+  translation: `You
+ Were so quick to leave.
+ I took one step forward,
+ Though I never wanted you to go.
+ And I
+ I was deceived by your feelings,
+ But your love was never true.
+ All you showed me
+ Was the mask you wore.`,
+},
     ],
   },
 
@@ -407,10 +454,290 @@ The paths where I met you feel so warm;
  As long as you hold my hand.`,
       },
       daiynbyzBa_bridge,
-      daiynbyzBa_chorus,
-      daiynbyzBa_chorus
+      {
+        label: 'Chorus x2',
+        original: `Ұялып, бата алмаймын көздеріңе жай қарауға
+Сыңғырлы күлкіңнен дүрсіл қағып жүрегім
+Көзіме қарап айтшы біз дайынбыз ба жаңа тарауға?
+Жарқын жаққа
+Үмітпенен қарап тұр едім!
+`,
+        translation: `I’m too shy to look straight into your eyes.
+ Your ringing laughter makes my heart race.
+ Look into my eyes and tell me:
+ Are we ready to begin a new chapter?
+ I was looking ahead
+ With hope for brighter days.
+`,
+    },
     ],
   },
+
+  {
+    id: 'mahabbatym',
+    title: 'Mahabbatym',
+    titleTranslated: 'My love',
+    artist: '',
+    performers: '', // PASTE HERE: e.g. 'Vocals: Aruzhan · Guitar: Dias'
+    sections: [
+      {
+        label: 'Verse 1',
+        original: `Мойныңда сенің — күмістен алқа
+Толқынды жаға
+Екеуіміз ғана
+Сырымыз бітпей жалғасты таңға
+Жағымды жанға
+Менде арман бар ма?
+`,
+        translation: `A silver necklace rests around your neck,
+ The shore is touched by waves.
+ Just the two of us
+ Our conversation carried on until dawn.
+ You bring such warmth to my soul.
+ What more could I wish for?`,
+      },
+      {
+        label: 'Chorus',
+        original: `A-а-а-а-а
+A-а-а-а-а
+A-а-а-а-а
+A-а-а-а-а
+`,
+        translation: `Ah-ah-ah-ah-ah…`,
+      },
+      {
+        label: 'Verse 2',
+        original: `Ән салып құстар шулаған бақта
+Таң атқан шақта
+Қасымдасың
+Қоштасып, ұзақ кетуге қимай
+Кеудеме сыймай
+Махаббатым
+`,
+        translation: `In the garden, birds were singing,
+ And dawn was breaking.
+ You were there beside me.
+ I couldn't bear to say goodbye
+ Or watch you leave for so long
+ My love.`,
+      },
+      {
+        label: 'Chorus',
+        original: `A-а-а-а-а
+Ғашықпын саған, еркем!
+A-а-а-а-а
+Нәзіксің неткен, көркем!
+A-а-а-а-а
+Сағынам сені, еркем!
+A-а-а-а-а
+Өзіңнен жауап күтем…
+Мен сені сүйемін
+`,
+        translation: `Ah-ah-ah-ah-ah…
+ I'm in love with you, my darling!
+ Ah-ah-ah-ah-ah…
+ How gentle and beautiful you are!
+ Ah-ah-ah-ah-ah…
+ I miss you, my darling!
+ Ah-ah-ah-ah-ah…
+ I'm waiting for your answer…
+I love you.
+`,
+      },
+      {
+        label: 'Outro',
+        original: `Қоштасып, ұзақ кетуге қимай
+Кеудеме сыймай
+Махаббатым!
+`,
+        translation: ` I couldn't bear to say goodbye
+ Or watch you leave for so long
+ My love.`,
+      },
+    ],
+  },
+
+  {
+    id: 'unaidyMagan',
+    title: 'Unaidy Magan',
+    titleTranslated: 'I like the way',
+    artist: '',
+    performers: '', // PASTE HERE: e.g. 'Vocals: Aruzhan · Guitar: Dias'
+    sections: [
+      {
+        label: 'Verse 1',
+        original: `Жалын атқан жанарыңды, жүрегіңді үн қатқан
+Ұнаттым мен бір ақ күннен көңіліңді сыр жатқан
+Елеңдеттің, тыңдаттың үлбіреген үніңмен
+Сен мен үшін жұмбақсың, жауабын білмеген
+`,
+        translation: `I fell for the fire in your eyes,
+ For the voice that speaks from your heart.
+ From the very first day, I loved
+ The secrets hidden in your soul.
+ Your gentle voice caught my attention;
+ You're a mystery I have yet to solve.`,
+      },
+      unaidyMagan_chorus,
+      {
+        label: 'Verse 2',
+        original: `Себебі сен жасырмайсың көңілдегі барыңды (Хей)
+Себебі сен ұқсамайсың басқаларға кәдімгі
+Сен жалғансыз шынайы, осындайсың себебі
+Сол мінезің ұнайды, сенсің маған керегі
+`,
+        translation: `Because you never hide what's in your heart.
+ Because you're unlike anyone else.
+ You're genuine, never pretending
+ That's simply who you are.
+ I love that part of you;
+ You're the one I need.`,
+      },
+      {
+      label: 'Chorus x3',
+      original: `Ұнайды маған еркелеткен сөздерің
+Ұнайды маған жалын атқан көздерің
+Ұнайды маған бір өзіңмен сырласқан
+Ұнайды, ұнайды, ұнайды маған
+`,
+      translation: `I like the way you speak so sweetly.
+ I like the fire shining in your eyes.
+ I like sharing secrets with you alone.
+ I like you, I like you, I like you.
+`,
+  },
+      {
+    id: 'keshMeni',
+    title: 'Kesh meni',
+    titleTranslated: 'Forgive me',
+    artist: '',
+    performers: '', // PASTE HERE: e.g. 'Vocals: Aruzhan · Guitar: Dias'
+    sections: [
+      {
+        label: 'Verse 1',
+        original: `Көз ілмей шықтым түні бойы, атты таң да
+Мазалам бір ой кетпей қойды естен әлі
+Жайдарлы шыққан күндер бірге жүрген едік
+Болды ма айтшы, жаным, босқа соның бәрі?
+`,
+        translation: `I stayed awake all night until dawn appeared.
+ One thought still troubles me; it will not leave my mind.
+ We once walked together through such bright and happy days—
+ Tell me, my love, was it all for nothing?`,
+      },
+      {
+        label: 'Chorus',
+        original: `Кеш мені, кеш енді,
+Бар ма амал, менде енді?
+Оралмас, бір болмас
+Екі жас бірге енді.
+`,
+        translation: `Forgive me, forgive me now.
+ Is there anything left to do?
+ We will never return to what we were;
+ Two young hearts can no longer be one.`,
+      },
+      {
+      label: 'Verse 2',
+      original: `Көз алмай тұрдым алдымдағы екі жастан,
+Бір-біріне күлімдеп қарап, қол алысқан
+Жайдарлы шыққан күндер бірге жүрген едік
+Болды ма, бұдан артық менде ақ арман?
+`,
+      translation: `I couldn't take my eyes off the two people before me,
+ Smiling at each other as they reached out their hands.
+ We once walked together through such bright and happy days
+ Could I ever have wished for anything more?
+`,
+  },
+      {
+      label: 'Rap',
+      original: `Бағалай білмейміз біз барды
+ Жігіттер сүйіңдер қыздарды
+ Әйтпесе әр жанда бар арман
+ Қыз деген сол үшін жаралған.
+ Сезімді тұра алар бүгіп кім?
+ Ең ізгі ерлігі жігіттің –
+ Жан ұғар жақынның жоқ теңі
+ Бір қызды бақытты еткені.
+ Онсыз да бұл заман ызғарлы,
+ Жігіттер сүйіңдер қыздарды,
+ Өлуде күнәсіз сан арман
+ Қыз деген сол үшін арналған.
+`,
+      translation: `We don't know how to treasure what we have.
+ So, boys, love the girls in your lives,
+ For every heart carries a dream.
+ Isn't that what girls are made for?
+ Who can keep their feelings hidden forever?
+ A man's finest act of courage
+ Is to understand the person close to him
+ There is no greater gift
+ Than making a girl happy.
+ This world is already cold enough;
+ So, boys, love the girls in your lives.
+ So many innocent dreams are lost;
+ A girl deserves to be loved.
+`,
+  },
+    ],
+  },
+
+      {
+    id: 'shyrailym',
+    title: 'Shyrailym',
+    titleTranslated: 'Shyrailym / My radiant one',
+    artist: '',
+    performers: '', // PASTE HERE: e.g. 'Vocals: Aruzhan · Guitar: Dias'
+    sections: [
+      {
+        label: 'Verse 1',
+        original: `Кім жаратты сені, сондай тәтті әнді?
+Теңізінің сенің, суы неткен дәмді.
+Толқынымен басты, толқынымен басты мені,
+Тек тұңшықтырмашы, сен асықтырмашы мені.
+Мындаған гүлдерден, менің гүлім ең сұлу.
+Кешір мені, менің жүрегімнен кетпейді жылу,
+Көздерім сені қимайды, тек әрі қарай олай болмайды.
+Түсінші мені, кешірші мені, шырайлым
+`,
+        translation: `Who created you with such a sweet song?
+ How delicious the water of your sea must be.
+ Your waves have swept over me, again and again—
+ Just don't drown me; please don't rush me.
+Among thousands of flowers,
+ You are the most beautiful one.
+ Forgive me: the warmth in my heart won't fade.
+ My eyes can't bear to leave you,
+ But things can no longer stay this way.
+ Please understand me, forgive me, my lovely one.
+`,
+      },
+      shyrailym_chorus,
+      {
+      label: 'Verse 2',
+      original: `Өткен күндер мен түндерге орала берме,
+Жаз бен көктем кетті, біздің әлемнен.
+Мүмкін осылай болуы керек, екеумізге бір жүрек,
+Екіге бөлінсін, маған жартысы саған жартысы.
+Жасқа толы менің көзім Бірақта өзімен өзім мен…
+Кешір, күн мен айым, кешірші мені, шырайлым
+`,
+      translation: `Don't keep returning to the days and nights gone by.
+ Summer and spring have left our world.
+ Perhaps this is how it must be:
+ One heart between us, divided in two—
+ Half for me and half for you.
+My eyes are full of tears,
+ But I am left alone with myself…
+ Forgive me, my sun and moon;
+ Forgive me, my lovely one.
+`,
+  },
+      shyrailym_chorus,
+    ],
+  },
+
 
   /* ─────────────── PASTE HERE: MORE SONGS ───────────────
    * Copy this template, remove the // at the start of each line, fill it in:
