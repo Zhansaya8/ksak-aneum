@@ -362,6 +362,103 @@ const osenniPozhar_chorus = {
 `,
   };
 
+const qazirBolmasa_chorus = {
+      label: 'Chorus',
+      original: `Қазір болмаса, қашан мен айтам?
+Сезімді іштей жасыра алмасам
+Қазір болмаса, қашан мен айтам?
+Сезімді іштей жасыра алмасам
+`,
+      translation: `If not now, when will I tell you?
+ I can no longer keep these feelings inside.
+ If not now, when will I tell you?
+ I can no longer keep these feelings inside.
+`,
+  };
+
+
+const kaitadan_chorus = {
+      label: 'Chorus x2',
+      original: `Саған қалай айта алам'?
+Айтпай қалай жай табам'?
+Сол алғашқы жалынды
+Жағайықшы қайтадан
+`,
+      translation: `How can I tell you?
+ How can I find peace if I don't?
+ Let's bring that first flame
+ Back to life again.
+`,
+  };
+
+const nuzhna_chorus = {
+        label: 'Chorus',
+        original: `Словно приливы океану
+ Словно небу облака
+ Словно грешным душам ангел
+ Ты нужна мне
+ Ты нужна
+ Как для безумца наказание
+ Как цветку нужна вода
+ Словно смелость для признаний
+ Ты нужна мне
+ Ты нужна
+`,
+        translation: `Like the tides need the ocean,
+ Like the clouds belong to the sky,
+ Like angels to the souls who’ve lost their way,
+ I need you by my side.
+I need you,
+ I need you.
+Like a madman’s need for punishment,
+ Like a flower needs the rain,
+ Like the courage to confess what’s in your heart,
+ I need you just the same.
+I need you,
+ I need you.
+`,
+      };
+
+
+const kuiim_chorus = {
+      label: 'Chorus',
+      original: `Төңкер шампанды аспанға!
+ Екеуіміздің мерекеміз.
+ Сәулем шуағын шашқанда,
+ Түсінем: Құдай бізді қосқан,
+ Сені сүю — Су тасқындай,
+ Менің күйім Адасқандаймын.
+ Төкпе көз жасты. Арманда!
+ Өтед-кетед, Бұл жастық Шақ.
+`,
+      translation: `Raise the champagne to the sky!
+ Tonight is our celebration.
+ When your light shines down on me,
+ I understand: God brought us together.
+ Loving you
+ Is like a rising flood
+ My heart
+ Feels lost and swept away.
+ Don't let the tears fall.
+ Keep dreaming!
+ This youth will pass before we know it.
+`,
+  };
+
+const sheker_chorus = {
+      label: 'Chorus',
+      original: `Уу-ее, шекер-шекер,
+бір жағалауға мың шағала.
+Құй шарап, құй шарап.
+Ішейік-ішейік-ішейік-ішейік-ішейік йә.
+`,
+      translation: `Woo-yeah, sugar, sugar,
+ A thousand seagulls along one shore.
+ Pour the wine, pour the wine—
+ Let's drink, let's drink, let's drink!
+`,
+  };
+
 export const songs = [
   /* ───────────────────────── SONG 1 ───────────────────────── */
   {
@@ -2214,6 +2311,590 @@ Think of me — imagine yourself as me.
     ],
   },
 
+  {
+    id: 'qazirBolmasa',
+    title: 'Qazir bolmasa',
+    titleTranslated: 'If not now',
+    artist: '',
+    performers: '', // PASTE HERE: e.g. 'Vocals: Aruzhan · Guitar: Dias'
+    sections: [
+      {
+        label: 'Verse 1',
+        original: `Сөзім таусылып көрген сайын
+Жүрдім жасырып, болмай дайын
+Сен маған ұнап жүргеніңді
+Айта алмай, күттім мінсіз күнді
+`,
+        translation: `Every time I saw you, I ran out of words.
+ I kept my feelings hidden, never ready.
+ I couldn't tell you that I liked you,
+ So I waited for the perfect day.
+`,
+      },
+      qazirBolmasa_chorus,
+      {
+        label: 'Verse 2',
+        original: `Келістің кешкі кездесуге
+Байқалып уайым біздің көзде
+Жүріс баяулап сенің көшеңде
+Таусылып бар айтылған сөздер
+Жүрек қағысы шалынып демге
+Бұл сәтті күтіп сен де, мен де
+`,
+        translation: `You agreed to meet me in the evening.
+ Worry was written in both our eyes.
+ Our steps slowed as we walked down your street.
+ We had run out of things to say.
+ Our heartbeats stumbled over every breath—
+ You and I had both been waiting for this moment.
+`,
+      },
+      qazirBolmasa_chorus,
+      {
+        label: 'Outro',
+        original: `Қазір болмаса, қашан мен айтам?
+Сезімді іштей жасыра алмасам
+Қазір болмаса, қашан мен айтам?
+Сезімді іштей жасыра алмасам
+`,
+        translation: `If not now, when will I tell you?
+ I can no longer keep these feelings inside.
+ If not now, when will I tell you?
+ I can no longer keep these feelings inside.
+`,
+      },
+    ],
+  },
+
+  {
+    id: 'kaitadan',
+    title: 'Қайтадан',
+    titleTranslated: 'Again',
+    artist: '',
+    performers: '', // PASTE HERE: e.g. 'Vocals: Aruzhan · Guitar: Dias'
+    sections: [
+      {
+        label: 'Verse 1',
+        original: `Көзіңді жұм осы бір сәтте, е
+Ештеңеге ойыңды бөлме, ай
+Екі жүрек үнсіз қалсын лүпілімен
+Айырылып қалатындаймын бір күні мен
+`,
+        translation: `Close your eyes for this moment.
+ Let nothing distract your thoughts.
+ Let two hearts fall silent, beating softly—
+ I feel as though one day I might lose you.
+`,
+      },
+      kaitadan_chorus,
+      {
+        label: 'Rap',
+        original: `(Қалдырма мені)
+Сөнген сезімді қайта өзгерт
+Менімен қайта айтпа қиын деп
+Сайтан алғыр, махаббат арадағы бар жараларды ұлғайтады
+А, арақашықтық
+Сенде болған сезімдерді қашыртты
+Бірақ кімде кінə? Мұнда жүрек күмəн туды
+Жүрек ауырады, сірә, ғашықпын
+`,
+        translation: `(Don't leave me.)
+ Bring these faded feelings back to life.
+ Don't tell me again that it is too hard.
+ Damn it, love only deepens every wound between us.
+ And distance—
+ It drove away the feelings you once had.
+ But whose fault is it? My heart has begun to doubt.
+ My heart aches; perhaps I'm still in love.
+`,
+      },
+      {
+        label: 'Verse 2',
+        original: `Суынған жүректің ызғары, аа, а-а-а, иә
+Өз жүрегіммен жылытамын, е-е
+Ал сен жанымда бол жай ғана, алаңдама
+Менің əлемімде ешкім жоқ, өзің ғана
+`,
+        translation: `The chill of a heart grown cold…
+ I'll warm it with my own.
+ Just stay beside me, don't worry.
+ In my world, there is no one but you.
+`,
+      },
+      kaitadan_chorus,
+      {
+        label: 'Rap',
+        original: `Жүрегім жабық тым, мен жалықтым, а
+Сәулесін сыйлашы жарықтың
+Іштей жанып тұрмын, түшш, тоқтатшы мені
+Өртеніп барады жаным, ауыр маған
+Аламын демімді сенен
+Осы шақта жүре өткенге сенем
+Бұрынға қателік біткен мәселе
+Тосқауыл істеме, әйтпесе
+`,
+        translation: `My heart is closed; I'm tired.
+ Give me a ray of light.
+ I'm burning inside—please, make it stop.
+ My soul is going up in flames; it hurts.
+ I draw my breath from you.
+ In this moment, I still believe in what we had.
+ The mistakes of the past are behind us.
+ Don't stand in our way, or else…
+`,
+      },
+      {
+        label: 'Bridge',
+        original: `Саған қалай мен айта алам'?
+Осының бәрін айтпай қалай мен жай табам? Айтшы!
+Сол алғашқы жалынды бірге
+Жағайықшы қайтадан, өтінем!
+`,
+        translation: `How can I tell you all of this?
+ How can I find peace without saying it? Tell me!
+ Together, let's bring that first flame
+ Back to life again, I beg you.
+`,
+      },
+      kaitadan_chorus,
+    ],
+  },
+
+  {
+    id: 'nuzhna',
+    title: 'Нужна',
+    titleTranslated: 'I need you',
+    artist: '',
+    performers: '', // PASTE HERE: e.g. 'Vocals: Aruzhan · Guitar: Dias'
+    sections: [
+      {
+        label: 'Verse 1',
+        original: `Давай мы убежим
+ Вдвоём на край земли
+ Никто и никогда
+ Нас не найдет
+ Искал тебя в других
+ Но мне нужна лишь ты
+ Как солнце и луна
+ Ты мне нужна
+`,
+        translation: `Let’s run away together,
+ Just you and me, beyond the edge of the world.
+ No one, not ever,
+ Will ever find us there.
+I’ve searched for you in others,
+ But you’re the only one I need.
+ Like the sun and moon,
+ I need you endlessly.
+`,
+      },
+      nuzhna_chorus,
+      {
+        label: 'Verse 2',
+        original: `Возьми меня, возьми
+ К себе на один миг
+ И я продлю его
+ Хоть навсегда
+ Плевать на остальных
+ Я здесь
+ Пока здесь ты
+ Три слова на губах
+ Ты мне нужна
+`,
+        translation: `Take me in, just hold me close,
+ Even if it’s only for a moment.
+ And I’ll make that moment last
+ As if forever had begun.
+I don’t care about the others,
+ I’m right here,
+ As long as you are here.
+ Three words upon my lips:
+ I need you.
+`,
+      },
+      nuzhna_chorus,
+      {
+        label: 'Bridge x2',
+        original: `Ты нужна для меня как день
+ Ты нужна для меня как ночь
+ Ты нужна для меня как свет
+ Ты нужна как жизнь
+ Ты нужна как воздух
+`,
+        translation: `You’re my daylight,
+ You’re my night.
+ You’re my light,
+ You’re my life.
+ You’re the air I breathe.
+`,
+      },
+      nuzhna_chorus,
+    ],
+  },
+
+  {
+    id: 'kuiim',
+    title: 'Kúıіm',
+    titleTranslated: 'State of mind',
+    artist: '',
+    performers: '', // PASTE HERE: e.g. 'Vocals: Aruzhan · Guitar: Dias'
+    sections: [
+      {
+        label: 'Verse 1',
+        original: `Әлемді мың зерттеп болып,
+ Бірақ әлі құпия мол,
+ Жетеді.
+Дауыл терезе қағып
+ болса да, аспан сұр бұлт
+ Ерке қыз
+Ерекше сезім көп,
+ Даусыңды естісем.
+ Сенің мінезің бар —
+ Ұнайды не істесең де.
+Күндіз-түні нұр бол,
+ Болса да аспан сұр бұлт
+ Ерке қыз
+`,
+        translation: `I have searched the world a thousand times,
+ Yet so many secrets remain.
+ Even when the storm beats against the window
+ And grey clouds cover the sky,
+ You are still my sweet girl.
+There is so much I feel
+ Whenever I hear your voice.
+ You have a way about you
+ I love everything you do.
+ Shine through the day and night,
+ Even when grey clouds fill the sky,
+ My sweet girl.
+`,
+      },
+      kuiim_chorus,
+      {
+        label: 'Verse 2',
+        original: `Үмітім үзіліп, таптадым,
+ Мекендеп түрлі мекен.
+ Іздедім, бірақ та таппадым.
+ Мен енді қойдым нүкте.
+Қуаныш сәттер көп,
+ Ұмытпай, еске сал,
+ Далада болса суық,
+ Ол мені жылытад.
+ Біздің өмір — кино
+ Басты рөлде мен және ол
+ Екеуіміз.
+`,
+        translation: `My hopes were shattered; I wandered,
+ Making a home in different places.
+ I searched, but never found what I was looking for.
+ Now I have finally drawn a line.
+There are so many moments of joy
+ Don't forget them; remind me.
+ Even when the world outside is cold,
+ You are the warmth that keeps me going.
+ Our life is a movie,
+ And the leading roles belong to us
+ The two of us.
+`,
+      },
+      kuiim_chorus,
+    ],
+  },
+
+  {
+    id: 'untilIFoundYou',
+    title: 'Until I found you',
+    titleTranslated: '',
+    artist: '',
+    performers: '', // PASTE HERE: e.g. 'Vocals: Aruzhan · Guitar: Dias'
+    sections: [
+      {
+        label: 'Verse 1',
+        original: `Georgia, wrap me up in all your
+ I want you in my arms
+ Oh, let me hold you
+ I'll never let you go again like I did
+ Oh, I used to say
+`,
+        translation: ``,
+      },
+      {
+        label: 'Chorus',
+        original: `I would never fall in love again until I found her
+ I said, "I would never fall unless it's you I fall into"
+ I was lost within the darkness, but then I found her
+ I found you
+`,
+        translation: ``,
+      },
+      {
+        label: 'Verse 2',
+        original: `Georgia, pulled me in, I asked to
+ Love her once again
+ You fell, I caught you
+ I'll never let you go again like I did
+ Oh, I used to say
+`,
+        translation: ``,
+      },
+      {
+        label: 'Chorus x2',
+        original: `I would never fall in love again until I found her
+ I said, "I would never fall unless it's you I fall into"
+ I was lost within the darkness, but then I found her
+ I found you
+`,
+        translation: ``,
+      },
+    ],
+  },
+
+  {
+    id: 'lovePoem',
+    title: 'Love poem',
+    titleTranslated: '',
+    artist: '',
+    performers: '', // PASTE HERE: e.g. 'Vocals: Aruzhan · Guitar: Dias'
+    sections: [
+      {
+        label: 'Verse 1',
+        original: `Әлемді мың зерттеп болып,
+ Бірақ әлі құпия мол,
+ Жетеді.
+Дауыл терезе қағып
+ болса да, аспан сұр бұлт
+ Ерке қыз
+Ерекше сезім көп,
+ Даусыңды естісем.
+ Сенің мінезің бар —
+ Ұнайды не істесең де.
+Күндіз-түні нұр бол,
+ Болса да аспан сұр бұлт
+ Ерке қыз
+`,
+        translation: `I have searched the world a thousand times,
+ Yet so many secrets remain.
+ Even when the storm beats against the window
+ And grey clouds cover the sky,
+ You are still my sweet girl.
+There is so much I feel
+ Whenever I hear your voice.
+ You have a way about you
+ I love everything you do.
+ Shine through the day and night,
+ Even when grey clouds fill the sky,
+ My sweet girl.
+`,
+      },
+      {
+        label: 'Verse 2',
+        original: `Үмітім үзіліп, таптадым,
+ Мекендеп түрлі мекен.
+ Іздедім, бірақ та таппадым.
+ Мен енді қойдым нүкте.
+Қуаныш сәттер көп,
+ Ұмытпай, еске сал,
+ Далада болса суық,
+ Ол мені жылытад.
+ Біздің өмір — кино
+ Басты рөлде мен және ол
+ Екеуіміз.
+`,
+        translation: `My hopes were shattered; I wandered,
+ Making a home in different places.
+ I searched, but never found what I was looking for.
+ Now I have finally drawn a line.
+There are so many moments of joy
+ Don't forget them; remind me.
+ Even when the world outside is cold,
+ You are the warmth that keeps me going.
+ Our life is a movie,
+ And the leading roles belong to us
+ The two of us.
+`,
+      },
+    ],
+  },
+
+  {
+    id: 'sheker',
+    title: 'Sheker',
+    titleTranslated: 'Sugar',
+    artist: '',
+    performers: '', // PASTE HERE: e.g. 'Vocals: Aruzhan · Guitar: Dias'
+    sections: [
+      {
+        label: 'Verse 1',
+        original: `Қай қалтамда жоғалып кетседе құрысын бағанағы шаң-тозаң.
+Мен бәріне ризамын, бәрі өз бабымен тфай-тфай-тфай, тағы не дейсің енді.
+Жүзейін самғайын, қөңіл-күйіме осы өленім лайық, толғанайын.
+Қосыл толқыныма, карап тұрма. Мә менің отыным сенің отыңа!
+`,
+        translation: `Let that old dust disappear, wherever it may have gone.
+ I'm grateful for it all; everything happens in its own time.
+ May I swim, may I soar—this song fits my mood.
+ Come ride my wave; don't just stand and watch.
+ Here, let my fire join yours!
+`,
+      },
+      sheker_chorus,
+      {
+        label: 'Verse 2',
+        original: `Бері кел, қазiр мен сені үйретем.
+Үш дөңгелек, баяғы балдырған.
+Уақыт тығыз, бірақ саған орын қалдырғанмын.
+Не жасырайын, берерім қолымда, мә бөпетайым. Ал, абайлап ал, адастырайын. Мен де дайынмын. Керемет мереке!
+`,
+        translation: `Come here, I'll show you how.
+ Three wheels, just like the old days of childhood.
+ Time is short, but I've saved you a place.
+ Why hide it? I've got something to give you, sweetheart.
+ Take it carefully—I'll lead you astray.
+ I'm ready, too.
+ What a wonderful celebration!
+`,
+      },
+      sheker_chorus,
+      {
+        label: '',
+        original: `Шекер - шекер, мыңшағала, құй шарап.
+`,
+        translation: `Sugar, sugar, a thousand seagulls—pour the wine.
+`,
+      },
+      {
+        label: 'Verse 3',
+        original: `Жүздеген мысық мяуылдайды майысып,
+Бірақ Дарекенті сабырлы, Дарекенті қайсар.
+Ешқайсысын танымайм, сондықтан жоламайм.
+мен де пенде, үйткені сендей деңгей, бәрі .
+Кербез тербел, жібек йығыңнан төгіліп, тігісінен сөгіліп.
+Көзілдірікті мұрныма ілдіріп,
+теңселем білдіртпей жүргенімді не бүлдіріп.
+`,
+        translation: `Hundreds of cats meow and sway,
+ But Darekent stays calm, Darekent stands strong.
+ I don't know any of them, so I keep my distance.
+ I'm only human, just like you—we're all on the same level.
+ Sway with grace, silk slipping from your shoulders,
+ The seams coming undone.
+ I perch my glasses on my nose,
+ And sway without letting anyone notice.
+`,
+      },
+      sheker_chorus,
+      {
+        label: 'Verse 4',
+        original: `Қай қалтамда жоғалып кетседе құрысын бағанағы шаң-тозаң.
+Мен бәріне ризамын, бәрі өз бабымен тфай-тфай-тфай, тағы не дейсің енді.
+Жүзейін самғайын, қөңіл-күйіме осы өленім лайық, толғанайын. Қосыл толқыныма, карап тұрма. Мә менің отыным сенің отыңа!
+`,
+        translation: `Let that old dust disappear, wherever it may have gone.
+ I'm grateful for it all; everything happens in its own time.
+ May I swim, may I soar—this song fits my mood.
+ Come ride my wave; don't just stand and watch.
+ Here, let my fire join yours!
+`,
+      },
+      sheker_chorus,
+    ],
+  },
+
+  {
+    id: 'almatynynTunderi',
+    title: 'Алматының түндері-ай',
+    titleTranslated: 'An Almaty night',
+    artist: '',
+    performers: '', // PASTE HERE: e.g. 'Vocals: Aruzhan · Guitar: Dias'
+    sections: [
+      {
+        label: 'Verse 1',
+        original: `Ажарлы көркің сұлу жаным.
+Бір көріп ұнап қалдың.
+Жүрегім сезген жылу барын.
+Бір көріп сыр ақтардым.
+ 
+Тайдырды жүзің ұяң жаным.
+Қолымда дірілдедің.
+Алматының түнін қиялдадым.
+Бақытты күнім едің.
+`,
+        translation: `Your beauty took my breath away, my dear.
+ I liked you from the very first glance.
+ My heart could feel the warmth inside you.
+ At first sight, I opened up my soul.
+
+ Your shy face made me lose my balance, my dear.
+ Your hands trembled in mine.
+ I dreamed of an Almaty night—
+ You were my happiest day.
+`,
+      },
+      {
+        label: 'Сhorus',
+        original: `Алматының түндері-ай.
+Алатаудың салкын самалындай.
+Алматының түндері-ай.
+Ұйқымды ұрлап сен алатындай.
+`,
+        translation: `Oh, the nights of Almaty,
+ Like the cool breeze from the Alatau.
+ Oh, the nights of Almaty,
+ You could steal my sleep away.
+`,
+      },
+      {
+        label: 'Verse 3',
+        original: `Ласкают воспоминания
+Любви далекой моей,
+И сердце греется тайной
+Алматинских ночей.
+ 
+Ты был моим откровением,
+Творцом нечаянных грёз.
+Твоим была отражением я,
+Когда летели до звёзд!
+`,
+        translation: `Memories of a distant love
+ Gently soothe me,
+ And my heart is warmed by the secret
+ Of Almaty's nights.
+You were my confession,
+ The maker of unexpected dreams.
+ I was your reflection
+ As we soared among the stars.
+`,
+      },
+      {
+        label: 'Сhorus x3',
+        original: `Алматының түндері-ай.
+Алатаудың салкын самалындай.
+Алматының түндері-ай.
+Ұйқымды ұрлап сен алатындай.
+`,
+        translation: `Oh, the nights of Almaty,
+ Like the cool breeze from the Alatau.
+ Oh, the nights of Almaty,
+ You could steal my sleep away.
+`,
+      },
+      sheker_chorus,
+      {
+        label: 'Verse 4',
+        original: `Қай қалтамда жоғалып кетседе құрысын бағанағы шаң-тозаң.
+Мен бәріне ризамын, бәрі өз бабымен тфай-тфай-тфай, тағы не дейсің енді.
+Жүзейін самғайын, қөңіл-күйіме осы өленім лайық, толғанайын. Қосыл толқыныма, карап тұрма. Мә менің отыным сенің отыңа!
+`,
+        translation: `Let that old dust disappear, wherever it may have gone.
+ I'm grateful for it all; everything happens in its own time.
+ May I swim, may I soar—this song fits my mood.
+ Come ride my wave; don't just stand and watch.
+ Here, let my fire join yours!
+`,
+      },
+      sheker_chorus,
+    ],
+  },
 
   /* ─────────────── PASTE HERE: MORE SONGS ───────────────
    * Copy this template, remove the // at the start of each line, fill it in:
