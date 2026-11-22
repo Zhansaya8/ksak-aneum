@@ -153,6 +153,54 @@ const shyrailym_chorus = {
 `,
 };
 
+const pandoraQoraby_chorus = {
+  label: 'Chorus',
+  original: `Ей, бала, есіңді жи бала!
+Саған қыз керек емес, ми ғана (Oo-ooh)
+Ей, бала, өзіңді қинама!
+Ашылса қорабы Пандораның обал болады (Ooh)
+Пандораның-дораның
+Дораның-дораның
+Дораның-дораның
+Дораның-дораның
+Пандораның-дораның
+Дораның-дораның
+Дораның-дораның
+Дораның
+`,
+  translation: `Hey, boy, get a grip!
+ You don't need a girl; you need a brain.
+ Hey, boy, don't put yourself through this!
+ Opening Pandora's box will only bring trouble.
+Pandora, dora,
+ Dora, dora…
+`,
+};
+
+const menSeniSuyemin_chorus = {
+  label: 'Chorus',
+  original: `Сені көрген кезде уақыт тоқтай
+Көрмесем өтеді жай зымырай
+Жетер, сезімімді жасыра алмаймын
+Жанған жүрек кеудеме сыймай
+ 
+Мен сені сүйемін
+Мен сені сүйемін
+Мен сені сүйемін
+Мен сені сүйемін
+`,
+  translation: `When I see you, time stands still.
+ When I don't, it rushes by.
+ Enough—I can no longer hide what I feel.
+ My burning heart can barely fit inside my chest.
+
+ I love you.
+ I love you.
+ I love you.
+ I love you.
+`,
+};
+
 export const songs = [
   /* ───────────────────────── SONG 1 ───────────────────────── */
   {
@@ -739,6 +787,359 @@ My eyes are full of tears,
       shyrailym_chorus,
     ],
   },
+
+  {
+    id: 'suigenZhurek',
+    title: 'Сүйген жүрек',
+    titleTranslated: 'A loving heart',
+    artist: '',
+    performers: '', // PASTE HERE: e.g. 'Vocals: Aruzhan · Guitar: Dias'
+    sections: [
+      {
+        label: 'Verse 1',
+        original: `Сүйген жүрек - өмірдегі тірек, 
+Күні-түні соғар 
+Саған бақыт тілеп. 
+Сүйген жүрек - сағынған, жылаған 
+Жүрсін деп дін-аман 
+Тәңірден сұраған.
+`,
+        translation: `A loving heart is life's support,
+ Beating day and night,
+ Wishing happiness upon you.
+ A loving heart longs and weeps,
+ Praying to Heaven
+ That you remain safe and well.
+`,
+      },
+      {
+        label: 'Chorus',
+        original: `Сүйген сенің жүрегім, 
+Мен де мұны білемін! 
+Әмір жүрмес ғашық жүрекке, 
+Аймалашы аяулап, 
+Жан сезімім арай бақ, 
+Бұдан асқан бақыт керек пе, 
+Аңсап сені сүйген жүрекке?
+`,
+        translation: `My heart is in love with you
+ I know it, too.
+ No command can rule a heart in love.
+ Hold me gently, tenderly;
+ My feelings bloom like a garden.
+ What greater happiness could there be
+ For a heart that longs to love you?
+`,
+      },
+      {
+      label: 'Verse 2',
+      original: `Сүйген жүрек -
+Бір саған асыққан. 
+Ол үшін ғұмыр - мұң, 
+Ол үшін күн - думан. 
+Сүйген жүрек -  
+Таусылмас асыл ән 
+Сол сүйген жүректі 
+Мен саған ұсынам...
+`,
+      translation: `A loving heart
+ Hurries toward you alone.
+ For it, life is sorrow,
+ And every day is a celebration.
+ A loving heart
+ Is a precious, endless song.
+ And this loving heart
+ I place it in your hands.
+`,
+  },
+      {
+        label: 'Chorus x2',
+        original: `Сүйген сенің жүрегім, 
+Мен де мұны білемін! 
+Әмір жүрмес ғашық жүрекке, 
+Аймалашы аяулап, 
+Жан сезімім арай бақ, 
+Бұдан асқан бақыт керек пе, 
+Аңсап сені сүйген жүрекке?
+`,
+        translation: `My heart is in love with you
+ I know it, too.
+ No command can rule a heart in love.
+ Hold me gently, tenderly;
+ My feelings bloom like a garden.
+ What greater happiness could there be
+ For a heart that longs to love you?
+`,
+      },
+    ],
+  },
+
+    {
+    id: 'pandoraQoraby',
+    title: 'Pandora qoraby',
+    titleTranslated: 'A loving heart',
+    artist: '',
+    performers: '', // PASTE HERE: e.g. 'Vocals: Aruzhan · Guitar: Dias'
+    sections: [
+      {
+        label: 'Verse 1',
+        original: `Отпен ойнама, бала, күйесің
+Шыныңды айтшы, сен кімді сүйесің?
+Екі жалын өртке айналғанда
+Қалай көтермекшісің күйесін?
+Кім болды бүгінгісі
+Жүрегіңнің иесі?
+Қалауың қызған түнде қай белдемшеге ересің?
+Сене алмаймын сен айтқан
+Келесі жалғанға
+"Сүйем-күйем"
+"Сүйем-күйем" демеші!
+`,
+        translation: `Don't play with fire, boy—you'll get burned.
+ Tell me the truth: who is it that you love?
+ When two flames turn into one great fire,
+ How will you bear the ashes?
+Who is the one today
+ Who owns your heart?
+ On a night when desire runs hot,
+ Whose skirt will you chase?
+I can't believe
+ The next lie you tell.
+ Don't say “I love you, I'd die for you”
+ Don't say those words again!
+`,
+      },
+      pandoraQoraby_chorus,
+      {
+      label: 'Verse 2',
+      original: `Әркімнің болсын жеке белесі
+Айлаң тозды, сен де оны сезесің
+Махаббатым менің әлі алдымда
+Сүйдім-күйдім, сүйдім-күйдім, келесі!
+`,
+      translation: `Everyone should have a path of their own.
+ Your tricks have worn thin—you know it too.
+ My love story is still waiting ahead of me.
+ I loved, I burned, I loved, I burned—next!
+`,
+  },
+      pandoraQoraby_chorus,
+      {
+        label: 'Bridge',
+        original: `Есігімнің алдына
+Жалынып келмеші
+Жаным, бұл далбасаны бес саусақтай білемін
+(Бір) Алдыма келесің
+(Екі) Сөзіңді бересің
+(Үш) Басқаға ересің
+(Төрт) Көзіме шөп салып
+(Бес) Құлақтан тебесің
+(Ых, жоғалшы!)
+`,
+        translation: `Don't come begging at my door.
+ Darling, I know this routine by heart:
+ One, you chase me;
+ Two, you make your promises;
+ Three, you chase someone else;
+ Four, you cheat on me;
+ Five, you turn your back on me.
+ Enough—just get lost!
+`,
+      },
+      {
+        label: 'Chorus',
+        original: `Ей, бала, есіңді жи бала!
+Саған қыз керек емес, ми ғана (Oo-ooh)
+Ей, бала, өзіңді қинама!
+Ашылса қорабы Пандораның обал болады (Ooh)
+`,
+        translation: `Hey, boy, get a grip!
+ You don't need a girl; you need some sense.
+ Hey, boy, don't put yourself through this!
+ Opening Pandora's box will only bring trouble.
+`,
+      },
+    ],
+  },
+
+      {
+    id: 'beggin',
+    title: 'Beggin',
+    titleTranslated: '',
+    artist: '',
+    performers: '', // PASTE HERE: e.g. 'Vocals: Aruzhan · Guitar: Dias'
+    sections: [
+      {
+        label: 'Intro',
+        original: `Put your lovin' hand out, baby
+'Cause I'm beggin'
+`,
+        translation: ``,
+      },
+      {
+      label: 'Chorus',
+      original: `I'm beggin', beggin' you
+So put your lovin' hand out, baby
+I'm beggin', beggin' you
+So put your loving hand out, darlin'
+`,
+      translation: ``,
+  },
+      {
+        label: 'Verse 1',
+        original: `Ridin' high when I was king
+I played it hard and fast 'cause I had everything
+I walked away, you warned me then
+But easy come and easy go, and it would end
+
+
+So anytime I bleed, you let me go
+Yeah, anytime I feed, you get me, no
+Anytime I seek, you let me know
+
+
+But I plan and see, just let me go
+I'm on my knees when I'm beggin'
+'Cause I don't wanna lose you
+Hey, yeah, ra-ta-ta-ta
+`,
+        translation: ``,
+      },
+      {
+        label: 'Chorus',
+        original: `'Cause I'm beggin', beggin' you
+Uh, put your lovin' hand out, baby
+I'm beggin', beggin' you
+And put your lovin' hand out, darlin'
+`,
+        translation: ``,
+      },
+      {
+        label: 'Bridge',
+        original: `I need you to understand
+Tried so hard to be your man
+The kind of man you want in the end
+Only then can I begin to live again
+`,
+        translation: ``,
+      },
+       {
+        label: 'Verse 2',
+        original: `An empty shell, I used to be
+The shadow of my life was hangin' over me
+
+
+A broken man that I don't know
+Won't even stand the devil's dance to win my soul
+What we doin'? What we chasin'?
+Why the bottom? Why the basement?
+
+
+Why we got good shit, don't embrace it?
+Why the feel for the need to replace me?
+You're the wrong way track from the good
+I wanna paint a picture tellin' where we could be at
+Like a heart in the best way should
+You can give it away, you had it, and you took the pay
+But I keep walkin' on, keep openin' doors
+Keep hopin' for, now the door is yours, keep also home
+'Cause I don't wanna live in a broken home, girl, I'm beggin'
+`,
+        translation: ``,
+      },
+      {
+        label: 'Chorus',
+        original: `Mm, yeah, yeah, I'm beggin', beggin' you
+So put your lovin' hand out, baby
+I'm beggin', beggin' you
+So put your lovin' hand out, darlin'
+`,
+        translation: ``,
+      },
+      {
+        label: 'Bridge',
+        original: `I'm fightin' hard to hold my own
+Just can't make it all alone
+I'm holdin' on, I can't fall back
+I'm just a calm, 'bout to fade to black
+`,
+        translation: ``,
+      },
+      {
+        label: 'Chorus',
+        original: `I'm beggin', beggin' you
+Put your lovin' hand out, baby
+I'm beggin', beggin' you
+So put your lovin' hand out, darlin'
+I'm beggin', beggin' you
+So put your lovin' hand out, baby
+I'm beggin', beggin' you
+So put your lovin' hand out, darlin'
+`,
+        translation: ``,
+      },
+      {
+        label: 'Outro',
+        original: `I'm beggin', beggin' you
+So put your lovin' hand out, baby
+I'm beggin', beggin' you
+So put your lovin' hand out
+`,
+        translation: ``,
+      },
+    ],
+  },
+
+  {
+    id: 'menSeniSuyemin',
+    title: 'Men seni Suyemin',
+    titleTranslated: 'I love you',
+    artist: '',
+    performers: '', // PASTE HERE: e.g. 'Vocals: Aruzhan · Guitar: Dias'
+    sections: [
+      {
+        label: 'Verse 1',
+        original: `Қазір, дәл осы сәтте
+Мені қалдыр, сен тым көп менде
+ 
+Ару, ғашық жанару
+Ол қару, атомдық қару
+`,
+        translation: `Right now, this very moment—
+ Leave me; there's already so much of you inside me.
+A beauty, a glowing face in love;
+ A weapon, an atomic weapon.
+`,
+      },
+      menSeniSuyemin_chorus,
+      {
+      label: 'Verse 2',
+      original: `Сырларымызды мәңгілік сақтай
+Жылдарымызды ешкім жоя алмайды
+`,
+      translation: `Let our secrets remain forever;
+ No one can erase the years we've shared.
+`,
+  },
+      menSeniSuyemin_chorus,
+      {
+        label: 'Verse 3',
+        original: `Сені бермеймін, ешбір жанға (Мен сені сүйемін)
+Маған кел дейтін, құшағын жая (Мен сені сүйемін)
+Сені бермеймін, ешбір жанға (Мен сені сүйемін)
+Маған кел дейтін, құшағын жая (Мен сені сүйемін)
+Мен сені
+`,
+        translation: `I won't give you to anyone else (I love you).
+ You call me to come, arms open wide (I love you).
+ I won't give you to anyone else (I love you).
+ You call me to come, arms open wide (I love you).
+I love you…
+`,
+      },
+    ],
+  },
+
 
 
   /* ─────────────── PASTE HERE: MORE SONGS ───────────────
