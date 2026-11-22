@@ -1048,7 +1048,7 @@ My eyes are full of tears,
 
   {
     id: 'suigenZhurek',
-    title: 'Сүйген жүрек',
+    title: 'Suıgen jurek',
     titleTranslated: 'A loving heart',
     artist: '',
     performers: '', // PASTE HERE: e.g. 'Vocals: Aruzhan · Guitar: Dias'
@@ -1400,7 +1400,7 @@ I love you…
 
   {
     id: 'zhel',
-    title: 'Жел',
+    title: 'Jel',
     titleTranslated: 'Wind',
     artist: '',
     performers: '', // PASTE HERE: e.g. 'Vocals: Aruzhan · Guitar: Dias'
@@ -1473,7 +1473,7 @@ You're a liar;
 
   {
     id: 'neproizoshlo',
-    title: 'Непроизошло',
+    title: 'Neproizoshlo',
     titleTranslated: 'Did not happen',
     artist: '',
     performers: '', // PASTE HERE: e.g. 'Vocals: Aruzhan · Guitar: Dias'
@@ -1555,7 +1555,7 @@ Ta-da-da-da-da-da
 
 {
     id: 'koshBol',
-    title: 'Қош бол',
+    title: 'Qosh bol',
     titleTranslated: 'Goodbye',
     artist: '',
     performers: '', // PASTE HERE: e.g. 'Vocals: Aruzhan · Guitar: Dias'
@@ -1631,7 +1631,7 @@ Can you hear it
 
   {
     id: 'dosMukasanMedley',
-    title: 'Дос-Мұқасан попурри',
+    title: 'DosMukasan popurri',
     titleTranslated: 'DosMukasan Medley',
     artist: '',
     performers: '', // PASTE HERE: e.g. 'Vocals: Aruzhan · Guitar: Dias'
@@ -1914,7 +1914,7 @@ Your beauty is wow.
 
   {
     id: 'kimadyn',
-    title: 'Қимадың',
+    title: 'Qimadyñ',
     titleTranslated: 'Don’t say',
     artist: '',
     performers: '', // PASTE HERE: e.g. 'Vocals: Aruzhan · Guitar: Dias'
@@ -2018,7 +2018,7 @@ Your beauty is wow.
 
   {
     id: 'veter',
-    title: 'Ветер',
+    title: 'Veter',
     titleTranslated: 'Wind',
     artist: '',
     performers: '', // PASTE HERE: e.g. 'Vocals: Aruzhan · Guitar: Dias'
@@ -2060,7 +2060,7 @@ Your beauty is wow.
 
     {
     id: 'matchaChai',
-    title: 'Матча чай',
+    title: 'Matcha chay',
     titleTranslated: 'Matcha',
     artist: '',
     performers: '', // PASTE HERE: e.g. 'Vocals: Aruzhan · Guitar: Dias'
@@ -2121,7 +2121,7 @@ I am a grown ass woman, нахуй одобрение
 
       {
     id: 'egizLebiz',
-    title: 'Егіз лебіз',
+    title: 'Egiz lebiz',
     titleTranslated: 'Two hearts beating as one',
     artist: '',
     performers: '', // PASTE HERE: e.g. 'Vocals: Aruzhan · Guitar: Dias'
@@ -2185,7 +2185,7 @@ I am a grown ass woman, нахуй одобрение
   
   {
     id: 'osenniPozhar',
-    title: 'Осенний пожар',
+    title: 'Osenniy pozhar',
     titleTranslated: 'Autumn fire',
     artist: '',
     performers: '', // PASTE HERE: e.g. 'Vocals: Aruzhan · Guitar: Dias'
@@ -2250,7 +2250,7 @@ You'll remember how, beneath the bridge,
 
     {
     id: 'menDepOila',
-    title: 'Мен деп ойла',
+    title: 'Men dep oıla',
     titleTranslated: 'Think of Me',
     artist: '',
     performers: '', // PASTE HERE: e.g. 'Vocals: Aruzhan · Guitar: Dias'
@@ -2368,7 +2368,7 @@ Think of me — imagine yourself as me.
 
   {
     id: 'kaitadan',
-    title: 'Қайтадан',
+    title: 'Qaıtadan',
     titleTranslated: 'Again',
     artist: '',
     performers: '', // PASTE HERE: e.g. 'Vocals: Aruzhan · Guitar: Dias'
@@ -2462,7 +2462,7 @@ Think of me — imagine yourself as me.
 
   {
     id: 'nuzhna',
-    title: 'Нужна',
+    title: 'Nuzhna',
     titleTranslated: 'I need you',
     artist: '',
     performers: '', // PASTE HERE: e.g. 'Vocals: Aruzhan · Guitar: Dias'
@@ -2657,60 +2657,63 @@ There are so many moments of joy
     performers: '', // PASTE HERE: e.g. 'Vocals: Aruzhan · Guitar: Dias'
     sections: [
       {
-        label: 'Verse 1',
-        original: `Әлемді мың зерттеп болып,
- Бірақ әлі құпия мол,
- Жетеді.
-Дауыл терезе қағып
- болса да, аспан сұр бұлт
- Ерке қыз
-Ерекше сезім көп,
- Даусыңды естісем.
- Сенің мінезің бар —
- Ұнайды не істесең де.
-Күндіз-түні нұр бол,
- Болса да аспан сұр бұлт
- Ерке қыз
+        label: '',
+        original: `누구를 위해 누군가
+기도하고 있나 봐
+숨죽여 쓴 사랑시가
+낮게 들리는 듯해
+
+너에게로 선명히 날아가
+늦지 않게 자리에 닿기를
+
+I'll be there 홀로 걷는 너의 뒤에
+Singing till the end 그치지 않을 이 노래
+아주 잠시만 귀 기울여 봐
+유난히 긴 밤을 걷는 널 위해 부를게
+
+또 한 번 너의 세상에
+별이 지고 있나 봐
+숨죽여 삼킨 눈물이
+여기 흐르는 듯해
+
+할 말을 잃어 고요한 마음에
+기억처럼 들려오는 목소리
+
+I'll be there 홀로 걷는 너의 뒤에
+Singing till the end 그치지 않을 이 노래
+아주 커다란 숨을 쉬어 봐
+소리 내 우는 법을 잊은 널 위해 부를게
+
+(다시 걸어갈 수 있도록)
+부를게
+(다시 사랑할 수 있도록)
+
+Here I am 지켜봐 나를 난 절대
+Singing till the end 멈추지 않아 이 노래
+너의 긴 밤이 끝나는 그날
+고개를 들어 바라본 그곳에 있을게
 `,
-        translation: `I have searched the world a thousand times,
- Yet so many secrets remain.
- Even when the storm beats against the window
- And grey clouds cover the sky,
- You are still my sweet girl.
-There is so much I feel
- Whenever I hear your voice.
- You have a way about you
- I love everything you do.
- Shine through the day and night,
- Even when grey clouds fill the sky,
- My sweet girl.
-`,
-      },
-      {
-        label: 'Verse 2',
-        original: `Үмітім үзіліп, таптадым,
- Мекендеп түрлі мекен.
- Іздедім, бірақ та таппадым.
- Мен енді қойдым нүкте.
-Қуаныш сәттер көп,
- Ұмытпай, еске сал,
- Далада болса суық,
- Ол мені жылытад.
- Біздің өмір — кино
- Басты рөлде мен және ол
- Екеуіміз.
-`,
-        translation: `My hopes were shattered; I wandered,
- Making a home in different places.
- I searched, but never found what I was looking for.
- Now I have finally drawn a line.
-There are so many moments of joy
- Don't forget them; remind me.
- Even when the world outside is cold,
- You are the warmth that keeps me going.
- Our life is a movie,
- And the leading roles belong to us
- The two of us.
+        translation: `It seems someone is praying
+For someone, somewhere.
+I can almost hear A love poem,
+quietly written in silence.
+May these words fly straight to you,
+May they reach you before it’s too late.
+I’ll be there,right behind you
+As you walk this road alone.
+Singing till the end,
+This song will never fade away.
+Just lend me your ears for a little while,
+ I’ll sing it just for you,
+ For you, wandering through this unusually long night.
+It seems once again,
+The stars are falling from your world.
+ I can almost feel
+The tears you’ve quietly swallowed
+Falling here before my eyes.
+In a heart grown silent,
+With no words left to say,
+ A familiar voice echoes like a memory.
 `,
       },
     ],
@@ -2802,7 +2805,7 @@ There are so many moments of joy
 
   {
     id: 'almatynynTunderi',
-    title: 'Алматының түндері-ай',
+    title: 'Almatynyñ tunderi-aı',
     titleTranslated: 'An Almaty night',
     artist: '',
     performers: '', // PASTE HERE: e.g. 'Vocals: Aruzhan · Guitar: Dias'
@@ -2878,21 +2881,6 @@ You were my confession,
  You could steal my sleep away.
 `,
       },
-      sheker_chorus,
-      {
-        label: 'Verse 4',
-        original: `Қай қалтамда жоғалып кетседе құрысын бағанағы шаң-тозаң.
-Мен бәріне ризамын, бәрі өз бабымен тфай-тфай-тфай, тағы не дейсің енді.
-Жүзейін самғайын, қөңіл-күйіме осы өленім лайық, толғанайын. Қосыл толқыныма, карап тұрма. Мә менің отыным сенің отыңа!
-`,
-        translation: `Let that old dust disappear, wherever it may have gone.
- I'm grateful for it all; everything happens in its own time.
- May I swim, may I soar—this song fits my mood.
- Come ride my wave; don't just stand and watch.
- Here, let my fire join yours!
-`,
-      },
-      sheker_chorus,
     ],
   },
 
