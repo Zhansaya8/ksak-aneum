@@ -234,6 +234,134 @@ const koshBol_bridge = {
 `,
   };
 
+const basqany_chorus = {
+      label: 'Chorus',
+      original: `Ал енді сен басқаны
+Суықта жылытасың
+Ал енді сен басқаны
+Сөзіңмен жұбатасың
+Ал енді сен басқаны
+Бақытты ете аларсың
+Ал енді сен басқаны
+Барыңмен қуантарсың
+`,
+      translation: `Now you'll keep someone else warm
+ When the cold sets in.
+ Now you'll comfort someone else
+ With the words you once gave me.
+ Now you'll make someone else happy
+ Now you'll give them all you have.
+`,
+  };
+
+
+const tulamaidy_chorus = {
+      label: 'Chorus',
+      original: `Біз Қозы мен Баяндай, өкінішке орай
+Болмаймыз тырыссақ та, қырсық, неге олай?
+Ғашық болу — жаңбырдай, жауады жер таңдамай
+Сенімен, әттең, теңізім туламайды-ай
+Сенімен, әттең, теңізім туламайды-ай
+`,
+      translation: `Like Kozy and Bayan, sadly,
+ We cannot be together, no matter how hard we try.
+ Why must fate be so cruel?
+ Falling in love is like rain—
+ It falls without choosing where.
+ Oh, my sea can’t rise with you.
+`,
+  };
+
+const veter_bridge = {
+      label: 'Bridge',
+      original: `Искать ответ, запутавшись в словах
+И да и нет. Затушишь, недосказав
+Ни слова мне, ни слова
+`,
+      translation: `Searching for an answer, lost in all these words—
+ Both yes and no. You put the flame out
+ Before you ever finish what you meant to say.
+ Not a word to me, not a word.
+`,
+  };
+
+const veter_chorus = {
+      label: 'Chorus',
+      original: `Ветер будет сильный
+Прям невыносимый
+Я теряю всё, что было вовсе не моё
+Ветер будет сильный
+Прям невыносимый
+Заново мы вряд ли что-то снова соберём
+`,
+      translation: `The wind will blow so hard,
+ Almost impossible to bear.
+ I'm losing everything
+ That was never really mine.
+ The wind will blow so hard,
+ Almost impossible to bear.
+ I doubt we'll ever manage
+ To put the pieces back together.
+`,
+  };
+
+
+const matchaChai_chorus = {
+      label: 'Chorus',
+      original: `Найду причину, чтобы просыпаться по утрам
+Заварю матчу, брошу в мусор пачку сигарет
+И мне совсем не страшно снова себя потерять
+Танцую в темноте, танцую в темноте
+`,
+      translation: `A reason to wake up in the morning.
+ I'll brew some matcha and throw my pack of cigarettes away.
+ I'm not afraid at all of losing myself again.
+ I dance in the darkness, I dance in the darkness.
+`,
+  };
+
+
+const egizLebiz_chorus = {
+      label: 'Chorus',
+      original: `Келші бағыма әлдеқайда ұшпай,
+келші, жаным,
+Қоншы қолыма арман аппақ құстай,
+қоншы, жаным.
+Келші бағыма,
+Қоншы қолыма,
+Келші, жаныма, кел!
+`,
+      translation: `Come into my garden; don't fly away so far.
+ Come, my love.
+ Land in my hands like a pure white dream,
+ Come rest, my love.
+ Come into my garden,
+ Land in my hands,
+ Come close to me, come!
+`,
+  };
+
+
+const osenniPozhar_chorus = {
+      label: 'Chorus',
+      original: `Осенний пожар, два сердца внутри
+Куда мне теперь бежать Магритт и Фон Триер
+Как жаль, мы уже договорились
+Что больше никогда об этом не заговорим
+Осенний пожар, два сердца внутри
+Куда мне теперь бежать Магритт и Фон Триер
+Как жаль, мы уже договорились
+Что больше никогда об этом не заговорим
+Не заговорим
+`,
+      translation: `An autumn fire, two hearts within.
+ Where can I run now—Magritte and von Trier?
+ What a shame: we already made a promise
+ Never to speak of this again.
+ Never speak of it again.
+`,
+  };
+
 export const songs = [
   /* ───────────────────────── SONG 1 ───────────────────────── */
   {
@@ -1548,6 +1676,539 @@ Can you hear it
  Though I don't know who she is, I keep looking.
  You come like a mirage in the dream before dawn,
  But I believe happiness will one day smile upon me.
+`,
+      },
+    ],
+  },
+
+  {
+    id: 'basqany',
+    title: 'Basqany',
+    titleTranslated: 'Someone else',
+    artist: '',
+    performers: '', // PASTE HERE: e.g. 'Vocals: Aruzhan · Guitar: Dias'
+    sections: [
+      {
+        label: 'Rap',
+        original: `Бәріде-бәріде есте
+Бақытты кездер
+Уақытта өтті лезде
+Өтті тәтті кез
+Екінші подъезд, үйдің артындағы бау
+Сенің сұлулығың уау
+Сезімдер кетті жанып лаулап
+Сенің сұлулығың уау
+Ішкі дүниең жалмауыз
+Алдын бірге болдық казір жаумыз
+Алдын бірге болдық казір жаумыз
+`,
+        translation: `Everything, everything stays in my memory
+ Those happy days.
+ Time flew by in an instant;
+ Those sweet moments are gone.
+The garden behind the second entrance,
+Your beauty is wow.
+ Our feelings burst into flames;
+ Your beauty is wow.
+ But inside, you were cruel.
+ Once we stood together; now we're enemies.
+ Once we stood together; now we're enemies.
+`,
+      },
+      {
+        label: 'Verse 1',
+        original: `Мен бәрін басқаша
+Елестеттім алайда
+Қоштасудың уақыты
+Тым ерте келді қалайша?
+`,
+        translation: `I imagined it all so differently,
+ But somehow,
+ The time to say goodbye
+ Came far too soon.
+`,
+      },
+      basqany_chorus,
+      {
+        label: 'Verse 2',
+        original: `Сен енді басқаға
+Жазып түрлі хаттарды
+Түніменен көз ілмей
+Бар сырыңды оған ақтарып
+`,
+        translation: `You'll write someone else letters,
+ Stay awake with them all night,
+ And share every secret
+ You once shared with me.
+`,
+      },
+      basqany_chorus,
+    ],
+  },
+
+    {
+    id: 'tulamaidy',
+    title: 'Tulamaidy',
+    titleTranslated: 'My sea can’t rise',
+    artist: '',
+    performers: '', // PASTE HERE: e.g. 'Vocals: Aruzhan · Guitar: Dias'
+    sections: [
+      {
+        label: 'Verse 1',
+        original: `Қарадың жауап күткен қара көзбен
+Тығылдым, сақтап сені сол сөздерден
+Аппақ жүрегіңе дақ түсірем бе?
+Көңілді әуеніңе мұң жіберем бе?
+`,
+        translation: `You looked at me with dark eyes,
+ Waiting for an answer.
+ I held back, trying to protect you
+ From the words I had to say.
+ Would I leave a mark upon your pure white heart?
+ Would I bring sadness into your cheerful song?
+`,
+      },
+      tulamaidy_chorus,
+      {
+        label: 'Verse 2',
+        original: `Қарадың жауап күткен қара көзбен
+Жұмылдым, шындықты айту ауыр екен
+Аппақ жүрегіңе дақ түсірем бе?
+Көңілді әуеніңе мұң жіберем бе?
+`,
+        translation: `You looked at me with eyes that waited for an answer.
+ I fell silent; the truth is so hard to say.
+ Would I leave a mark upon your pure white heart?
+ Would I bring sadness into your cheerful song?
+`,
+      },
+      {
+        label: 'Bridge',
+        original: `Адассаң қараңғыда — айың болам
+Сендей асыл адам — серік маған, қайран қалам
+Сүрініп құласаң — жараңды кеп, өзім таңам
+Сұрайтыным — дос боп қалшы маған
+`,
+        translation: `If you lose your way in darkness, I'll be your moon.
+ Someone as precious as you would make a wonderful companion.
+ If you stumble and fall, I'll be the one to tend your wounds.
+ All I ask is that you remain my friend.
+`,
+      },
+      tulamaidy_chorus,
+      {
+        label: 'Outro',
+        original: `Біз Қозы мен Баяндай, өкінішке орай
+Болмаймыз тырыссақ та, қырсық, неге олай?
+Ғашық болу — жаңбырдай, жауады жер таңдамай
+Сенімен, әттең, теңізім туламайды-ай
+Сенімен, әттең, теңізім туламайды-ай
+`,
+        translation: `Like Kozy and Bayan, sadly,
+ We cannot be together, no matter how hard we try.
+ Why must fate be so cruel?
+ Falling in love is like rain—
+ It falls without choosing where.
+ Oh, my sea can’t rise with you.
+`,
+      },
+    ],
+  },
+
+  {
+    id: 'kimadyn',
+    title: 'Қимадың',
+    titleTranslated: 'Don’t say',
+    artist: '',
+    performers: '', // PASTE HERE: e.g. 'Vocals: Aruzhan · Guitar: Dias'
+    sections: [
+      {
+        label: 'Verse 1',
+        original: `Айта алмай тұрсың алдымда не?
+Бастаған сөзің аяқсыз қалды,
+Қайғырады деп ойлама мен.
+Сол нәзік қыз деп жүрсіңбе әлі?
+Саған сезім шынайы еді,
+Сен адастың,алдандың ба?
+Бақытыңды өмірдегі,мәңгілік жараладың!
+`,
+        translation: `What are you trying to tell me?
+ You began to speak, but left your words unfinished.
+ Don't think I'll grieve over it.
+ Do you still think I'm that delicate girl?
+ My feelings for you were sincere.
+ Were you mistaken, or were you deceived?
+ You have wounded your own happiness for good.
+`,
+      },
+      {
+        label: 'Bridge',
+        original: `Алыста,алысқа кетсеңде қаншама,
+Ешқашан артыңа қайрылма.
+Қайтпа енді жаныма,жаныма
+`,
+        translation: `Even if you go far, far away,
+ Never look back.
+ Don't come back to me again.
+`,
+      },
+      {
+        label: 'Chorus',
+        original: `Қимадың деп айтпа,құбылып алдымда.
+Жалғандығыңмен жетер енді жетер,
+Берген сертің қайда?
+Ол орындалмай ма?
+Сен маған қол жетпес арман емессің.
+`,
+        translation: `Don't say you couldn't let go,
+ Standing before me, changing your mind.
+ Your lies have gone far enough.
+ Where are the promises you made?
+ Will you ever keep them?
+ You're not some unreachable dream to me.
+`,
+      },
+      {
+        label: 'Verse 2',
+        original: `Жүрсіңбе сен өкініп енді?
+Есіңе алып бақытты кезді,
+Соншама сені бағалап едім.
+Бәріде енді алыстап кетті,
+Сен мені ойлама енді,сағынба.
+Жалынышпен мұнайма алдымда,
+Сені ұмыту қиын емес.
+Жалынып енді қинама.
+`,
+        translation: `Do you regret it now?
+ Do you remember those happy days?
+ I valued you so much.
+ But now everything has drifted away.
+ Don't think of me anymore; don't miss me.
+ Don't stand before me pleading and sad.
+ Forgetting you isn't difficult.
+ Don't come begging and tormenting me.
+`,
+      },
+      {
+        label: 'Bridge',
+        original: `Сен алыста,алысқа кетсеңде қаншама,
+Ешқашан артыңа қайрылма.
+Қайтпа енді жаныма,сен жаным!
+`,
+        translation: `Even if you go far, far away,
+ Never look back.
+ Don't come back to me again.
+`,
+      },
+      {
+        label: 'Chorus x2',
+        original: `Қимадың деп айтпа,құбылып алдымда.
+Жалғандығыңмен жетер енді жетер,
+Берген сертің қайда?
+Ол орындалмай ма?
+Сен маған қол жетпес арман емессің.
+`,
+        translation: `Don't say you couldn't let go,
+ Standing before me, changing your mind.
+ Your lies have gone far enough.
+ Where are the promises you made?
+ Will you ever keep them?
+ You're not some unreachable dream to me.
+`,
+      },
+    ],
+  },
+
+  {
+    id: 'veter',
+    title: 'Ветер',
+    titleTranslated: 'Wind',
+    artist: '',
+    performers: '', // PASTE HERE: e.g. 'Vocals: Aruzhan · Guitar: Dias'
+    sections: [
+      {
+        label: 'Verse 1',
+        original: `Снова, снова не лезь за словом
+Это уже не новость — от себя не убежишь
+Если, если ты не готова
+Я буду хладнокровным, разобраться надо лишь
+`,
+        translation: `Again, again—don't make me search for words.
+ This is nothing new; you cannot run from yourself.
+ If, if you're not ready,
+ I'll stay calm. We only need to understand.
+`,
+      },
+      veter_bridge,
+      veter_chorus,
+      {
+        label: 'Verse 2',
+        original: `Ветер будет сильный
+Прям невыносимый
+Я теряю всё, что было вовсе не моё
+Ветер будет сильный
+Прям невыносимый
+Заново мы вряд ли что-то снова соберём
+`,
+        translation: `Again, again, we're almost strangers.
+ Cold runs through both your veins and mine.
+ Soon it will hurt beyond belief.
+ I'm tired of it—we keep running from love.
+`,
+      },
+      veter_bridge,
+      veter_chorus,
+    ],
+  },
+
+    {
+    id: 'matchaChai',
+    title: 'Матча чай',
+    titleTranslated: 'Matcha',
+    artist: '',
+    performers: '', // PASTE HERE: e.g. 'Vocals: Aruzhan · Guitar: Dias'
+    sections: [
+      {
+        label: 'Verse 1',
+        original: `Хмурый, осенний вечер, на улице дожди
+Люди бегут по барам, люди спешат уйти
+Съемные комнаты, на душе опять снова скомкано
+А может быть именно в этот день найду
+`,
+        translation: `A gloomy autumn evening, rain falling in the streets.
+ People rush into bars; people hurry away.
+ A rented room, and once again my soul feels crumpled.
+ Maybe this is the very day I'll find
+`,
+      },
+      matchaChai_chorus,
+      {
+        label: 'Verse 2',
+        original: `Мне стало так высоко
+Так далеко, так, как не бывало до этого
+Ты мне говорил, что я глупа
+И не поднимусь с этой бездны
+`,
+        translation: `I've risen so high,
+ Gone so far—farther than ever before.
+ You told me I was foolish
+ And would never climb out of this abyss.
+`,
+      },
+      {
+        label: 'Bridge',
+        original: `Слушай, слушай
+Я не буду-буду твоей музой-музой
+Разбирайся сам
+Я лишь хочу дышать полной грудью
+Попивать зеленую матчу чай
+И мне все равно
+На ваше мнение, о моем мнении, моем поведении
+О моих выходках, моей постели, е
+I am a grown ass woman, нахуй одобрение
+`,
+        translation: `Listen, listen:
+ I won't be your muse, no, I won't be your muse.
+ Figure it out yourself.
+ I just want to breathe with all my strength,
+ Sip my green matcha,
+ And not care what you think
+ What you think of my opinions, my behaviour,
+ My wild ways, my bed.
+ I'm a grown-ass woman; I don't need your approval.
+`,
+      },
+      matchaChai_chorus,
+    ],
+  },
+
+      {
+    id: 'egizLebiz',
+    title: 'Егіз лебіз',
+    titleTranslated: 'Two hearts beating as one',
+    artist: '',
+    performers: '', // PASTE HERE: e.g. 'Vocals: Aruzhan · Guitar: Dias'
+    sections: [
+      {
+        label: 'Verse 1',
+        original: `Көгімдегі айым дейін сені,
+Көкшедегі қайың дейін сені.
+Көзден ұшып жырақта жүрсең.
+Шамшырағым күнім дейін сені,
+Әнші бағым, гүлім дейін сені.
+Өзіңмен бір жұмаққа кірсем.
+`,
+        translation: `Let me call you the moon in my sky,
+ The birch tree of Kokshetau.
+ Even when you fly far beyond my sight,
+ I'll call you my guiding light, my sun.
+ My garden of songs, my flower
+ If only I could enter paradise with you.
+`,
+      },
+      egizLebiz_chorus,
+      {
+        label: 'Verse 2',
+        original: `Сағынғанда саялайын сені,
+Аққуымдай аялайын сені.
+Айдыныңда қалықта, жаным.
+Бала қаздай мәпелейін сені,
+Жаңа өмірге жетелейін сені,
+Жаныма кел, жабықпа, жаным.
+`,
+        translation: `When I miss you, let me shelter you.
+ I'll cherish you like my swan.
+ Glide across your waters, my dear.
+ I'll care for you like a little gosling,
+ Lead you toward a new life.
+ Come to me; don't be sad, my love.
+`,
+      },
+      egizLebiz_chorus,
+      {
+        label: 'Verse 3',
+        original: `Аппақ таңдай тілегім де өзің,
+Алатаудай тірегім де өзің.
+Жер бетінде қатар жүргенде.
+Қоныстасып бірге күн кешейік,
+Қол ұстасып бірге үндесейік.
+Атар таңға, батар күндерге.
+`,
+        translation: `You are my wish, as bright as the dawn;
+ You are my support, as mighty as the Alatau.
+ While we walk together on this earth,
+ Let us make a home side by side,
+ Hold hands and speak as one,
+ Through every sunrise and every sunset.
+`,
+      },
+      egizLebiz_chorus,
+    ],
+  },
+  
+  {
+    id: 'osenniPozhar',
+    title: 'Осенний пожар',
+    titleTranslated: 'Autumn fire',
+    artist: '',
+    performers: '', // PASTE HERE: e.g. 'Vocals: Aruzhan · Guitar: Dias'
+    sections: [
+      {
+        label: 'Verse 1',
+        original: `Подкину еще сто водиле на чай
+И сегодня превратится во вчера
+Осень, пепел на стол. Прощай
+Мне пора
+Ты вспомнишь, как под мостом
+Нас ветер сбивает с ног
+Ты настолько в красном, что сливаешься с Москвой
+Шмоток полный рюкзак, четырехсотый пустой—
+Десять лет назад, а может быть и сто
+Недобеленный потолок, кредит на диван
+Удержаться бы мог
+Но ты и выглядишь просто вау
+`,
+        translation: `I will give the driver another hundred as a tip,
+ And today will turn into yesterday.
+ Autumn, ashes on the table.
+Goodbye
+ It's time for me to go.
+You'll remember how, beneath the bridge,
+ The wind nearly swept us off our feet.
+ You were dressed in so much red
+ You seemed to blend into Moscow.
+ A backpack full of clothes, an empty old car
+ Was it ten years ago, or maybe a hundred?
+ An unfinished ceiling, a sofa bought on credit…
+ I might have held on,
+ But you still look simply incredible.
+`,
+      },
+      osenniPozhar_chorus,
+      {
+        label: 'Verse 2',
+        original: `Непрочитанное письмо, первое колесо—
+Это все не со мной, это все чей-то сон
+Сладкая волна, не наблюдаем часов
+Это был вроде май, жаль, не помню число
+Жаль, не помню в упор, куда выходит окно
+Оказалось домом дорожное полотно
+Ветерком между арок, дымом на желтый парк
+Пошлая надпись Love
+`,
+        translation: `An unread letter, the first wheel turning
+ None of this feels like it happened to me;
+ It all feels like someone else's dream.
+ A sweet wave, and we never watched the time.
+ It must have been May, though I can't recall the date.
+ I can't even remember which way the window faced.
+ The road turned out to be our home,
+ A breeze between the arches, smoke above the yellow park,
+ And a tasteless inscription: “Love.”
+`,
+      },
+      osenniPozhar_chorus,
+    ],
+  },
+
+    {
+    id: 'menDepOila',
+    title: 'Мен деп ойла',
+    titleTranslated: 'Think of Me',
+    artist: '',
+    performers: '', // PASTE HERE: e.g. 'Vocals: Aruzhan · Guitar: Dias'
+    sections: [
+      {
+        label: 'Verse 1',
+        original: `Сағындым ғой дедің ау, жаным маған,
+Бұлт көрдің бе таулардан мамырлаған,
+Сол менің ақжарыңнан ақжалыны,
+Аулақтап ауылыңнан дамылдаған.
+`,
+        translation: `You said you missed me, didn't you, my love?
+Have you seen the clouds drifting over the mountains?
+That is the pure flame of my love for you,
+Resting far away, beyond the village you call home.
+`,
+      },
+      {
+        label: 'Chorus',
+        original: `Мен деп ойла, самал боп есип өткен,
+Мен деп ойла, нөсерді есі кеткен,
+Мен деп ойла, өзіңді әр күн сайын,
+Мен деп ойла, өзіңді мен деп ойла.
+`,
+        translation: `Think of me as the breeze that softly passes by,
+Think of me as the rain that pours with wild abandon.
+Think of me, every single day,
+Think of me — imagine yourself as me.
+`,
+      },
+      {
+        label: 'Verse 2',
+        original: `Естідіңбе аспанның күрсінгенін,
+Сол менің саған деген тылсым демім,
+Ұйықтап жатса оянсын, ояу болса,
+Күңіренген жанымды білсін дедім.
+`,
+        translation: `Have you heard the sky let out a sigh?
+That is my soul's mysterious breath reaching out to you.
+If you're asleep, may it wake you;
+If you're awake, I want you to feel
+The sorrow echoing deep within my soul.
+`,
+      },
+      {
+        label: 'Chorus x3',
+        original: `Мен деп ойла, самал боп есип өткен,
+Мен деп ойла, нөсерді есі кеткен,
+Мен деп ойла, өзіңді әр күн сайын,
+Мен деп ойла, өзіңді мен деп ойла.
+`,
+        translation: `Think of me as the breeze that softly passes by,
+Think of me as the rain that pours with wild abandon.
+Think of me, every single day,
+Think of me — imagine yourself as me.
 `,
       },
     ],
