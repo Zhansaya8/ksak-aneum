@@ -390,7 +390,7 @@ The paths where I met you feel so warm;
 `,
       },
       daiynbyzBa_bridge,
-      dayinbyzBa_chorus,
+      daiynbyzBa_chorus,
       {
         label: 'Verse 2',
         original: `Кіршіксіз сезімнің
@@ -407,8 +407,8 @@ The paths where I met you feel so warm;
  As long as you hold my hand.`,
       },
       daiynbyzBa_bridge,
-      dayinbyzBa_chorus,
-      dayinbyzBa_chorus
+      daiynbyzBa_chorus,
+      daiynbyzBa_chorus
     ],
   },
 
