@@ -201,6 +201,39 @@ const menSeniSuyemin_chorus = {
 `,
 };
 
+const zhel_chorus = {
+  label: 'Chorus',
+  original: `көз алдымда
+бейнең тұр мүсіндей
+(бұл) өңім бе түсім бе?
+салқын желдей сеземін өзіңді
+көрінбесе дым ізің де
+ 
+па па па па па-ра
+`,
+  translation: `Your image stands before my eyes
+ Like a statue.
+ Was it real, or was it a dream?
+ I feel you like a cold wind,
+ Even when not a trace of you remains.
+Pa-pa-pa-pa-pa-ra…
+`,
+};
+
+const koshBol_bridge = {
+      label: 'Bridge',
+      original: `Мұңайма кел биле
+Қуанышты күйге
+Бөленейік бірге
+Дәл қазіргі сәтте
+`,
+      translation: `Don't be sad, come and dance.
+ Let yourself be carried by joy.
+ Let's share this moment together,
+ Right here, right now.
+`,
+  };
+
 export const songs = [
   /* ───────────────────────── SONG 1 ───────────────────────── */
   {
@@ -1140,6 +1173,385 @@ I love you…
     ],
   },
 
+  {
+    id: 'zhel',
+    title: 'Жел',
+    titleTranslated: 'Wind',
+    artist: '',
+    performers: '', // PASTE HERE: e.g. 'Vocals: Aruzhan · Guitar: Dias'
+    sections: [
+      {
+        label: 'Verse 1',
+        original: `Балдай тәтті сөзің
+Жамады жарамды
+Әттең бола алмадың
+Сүюге жарамды
+ 
+Үнемі алдайсың тыйып өткен шағыңды
+Әңгіме ыңғайсыз болғанда қас қағымда
+Қашуға оңайсың
+Атыңа затың сай емес
+Бірақ әлі де
+`,
+        translation: `Your words were sweet as honey;
+ They healed my wounds.
+ Alas, you were never
+ Someone capable of love.
+
+You keep hiding your past,
+ Always twisting the truth.
+ Whenever a conversation turns uncomfortable,
+ You find a way to escape in a beat.
+ Running away comes so easily to you.
+ Your name and nature don't quite match
+ And yet, still…
+`,
+      },
+      zhel_chorus,
+      {
+      label: 'Verse 2',
+      original: `Әмірсіз жүрек
+Сені аңсап қоймайды
+Махаббатқа аш адам
+Не де берсең тоймайды
+ 
+Сен алдамшы
+Мен болсам аңқау
+Сен қашқан сайын
+Ермегім қуалау
+`,
+      translation: `My heart doesn’t obey
+ It keeps longing for you.
+ A heart hungry for love
+ Can never be full,
+ No matter what you give.
+
+You're a liar;
+ I'm trusting and naive.
+ The more you run away,
+ The more I chase after you.
+`,
+  },
+      zhel_chorus,
+      {
+        label: 'Verse 3',
+        original: `Шаршадым ойыннан
+Аш адам тоя алмас
+`,
+        translation: `I'm tired of this game.
+ A hungry heart
+ Can never have enough.
+`,
+      },
+    ],
+  },
+
+  {
+    id: 'neproizoshlo',
+    title: 'Непроизошло',
+    titleTranslated: 'Did not happen',
+    artist: '',
+    performers: '', // PASTE HERE: e.g. 'Vocals: Aruzhan · Guitar: Dias'
+    sections: [
+      {
+        label: 'Verse 1',
+        original: `А подо мной Земля крутится как назло
+Будто бы ничего и не произошло
+Просто рэп-звезды погасли все, туса в особняке
+Будто бы ничего и не произошло
+Просто нам правда не по глазам
+Оказалось всё, как и сто лет назад
+Жаль, будто ничего так и не произошло
+Только рэп-звезды погасли все, время куда-то шло
+А может быть, ничего и не произошло
+`,
+        translation: `And beneath me, the Earth keeps spinning just to spite me
+As if nothing had ever happened
+Just the rap stars have all faded out, a party in a mansion
+As if nothing had ever happened
+It's just that we really can't face the truth
+Turns out everything is just like it was a hundred years ago
+It's a shame, as if nothing had ever happened at all
+Only the rap stars have all faded out, and time just drifted on
+Or maybe nothing ever happened
+`,
+      },
+      {
+      label: 'Verse 2',
+      original: `Ты смотришь мне в глаза
+Не показалось, я делаю шаг назад
+И всё, будто ничего и не произошло
+Ты смотришь мне в глаза
+Не показалось, я делаю шаг назад
+Всё, будто ничего
+Здесь всё, будто ничего
+Всё, будто ничего
+Здесь всё, будто ничего
+Всё, будто ничего
+Здесь всё, будто ничего
+И только рэп-звезды погасли все
+Траками по росе
+Может быть, ничего
+И не произошло
+И не произошло
+И не произошло
+И не произошло
+И не произошло
+Та-да-да-да-да-да
+Та-да-да-да-да-да
+Та-да-да-да-да-да
+`,
+      translation: `You're looking into my eyes
+I wasn't imagining it, I'm taking a step back
+And that's it, as if nothing had ever happened
+You're looking into my eyes
+I wasn't imagining it, I'm taking a step back
+That's it, as if nothing
+Everything here is as if nothing happened
+As if nothing
+Everything here is as if nothing happened
+As if nothing
+Everything here is as if nothing happened
+And only the rap stars have all faded out
+Truck tires rolling through the morning dew
+Maybe nothing
+Ever happened
+Ever happened
+Ever happened
+Ever happened
+Ever happened
+Ta-da-da-da-da-da
+Ta-da-da-da-da-da
+Ta-da-da-da-da-da
+`,
+  },
+    ],
+  },
+
+{
+    id: 'koshBol',
+    title: 'Қош бол',
+    titleTranslated: 'Goodbye',
+    artist: '',
+    performers: '', // PASTE HERE: e.g. 'Vocals: Aruzhan · Guitar: Dias'
+    sections: [
+      {
+        label: 'Verse 1',
+        original: `Мынаны естимісің
+Уақыттың дыбысын
+Алтынға бағалаймын
+Барым да тынысым.
+Мынаны естимісің
+Уақыттың дыбысын
+Алтынға бағалаймын
+Барым да тынысым
+`,
+        translation: `Can you hear it
+ The sound of time?
+ I would give it the value of gold;
+ It's all I have, it's my very breath.
+Can you hear it
+ The sound of time?
+ I would give it the value of gold;
+ It's all I have, it's my very breath.
+`,
+      },
+      koshBol_bridge,
+      {
+        label: 'Chorus',
+        original: `Қош бол! Қош бол! Қош бол, мұңға толы сәттер!
+Қош бол! Қош бол! Қош бол, мұңға толы сәттер!
+`,
+        translation: `Goodbye! Goodbye!
+ Goodbye to moments filled with sorrow!
+ Goodbye! Goodbye!
+ Goodbye to moments filled with sorrow!
+`,
+      },
+      {
+        label: 'Verse 2',
+        original: `Мен үшін мейрам бүгін
+Ерекше әр күнім
+Болмасын мүлде уайым
+Қуана тойлайын
+Достардың арасында
+Еркелеп ойнайын
+Шулап өтер бұл өмірде
+Қызығына тоймайын
+`,
+        translation: `Today is a celebration for me;
+ Every day feels special.
+ Let there be no worries at all
+ I want to celebrate with joy.
+ Among my friends,
+ I'll laugh and play freely.
+ Life rushes by in all its noise;
+ I never want to tire of its wonders.
+`,
+      },
+      koshBol_bridge,
+      {
+        label: 'Chorus x2',
+        original: `Қош бол! Қош бол! Қош бол, мұңға толы сәттер!
+Қош бол! Қош бол! Қош бол, мұңға толы сәттер!
+`,
+        translation: `Goodbye! Goodbye!
+ Goodbye to moments filled with sorrow!
+ Goodbye! Goodbye!
+ Goodbye to moments filled with sorrow!
+`,
+      },
+    ],
+  },
+
+  {
+    id: 'dosMukasanMedley',
+    title: 'Дос-Мұқасан попурри',
+    titleTranslated: 'DosMukasan Medley',
+    artist: '',
+    performers: '', // PASTE HERE: e.g. 'Vocals: Aruzhan · Guitar: Dias'
+    sections: [
+      {
+        label: 'Verse - song I Missed You',
+        original: `Сағындым сені, сағындым еркем
+Қызғалдақ толы көктемде
+Сағындым еркем, сазымен көркем
+Қаңқылдап қаздар өткенде
+`,
+        translation: `I miss you, I miss you, my dear,
+ In the springtime full of tulips.
+ I miss you, my dear, with your beautiful melody,
+ When the geese pass by calling.
+`,
+      },
+      {
+        label: 'Chorus',
+        original: `Сағындым сені, аяулым!
+Келсеңші маған ән болып
+Сағындым сені, аяулым
+Келсеңші маған, келсеңші маған, таң болып
+`,
+        translation: `I miss you, my precious one!
+ Come to me like a song.
+ I miss you, my precious one—
+ Come to me, come to me like the dawn.
+`,
+      },
+      {
+        label: 'Verse - song Beautiful Girl',
+        original: `Таңертеңмен бір сұлу қыз
+Суға келеді
+Суға келеді
+Суға келеді
+Ат жетектеп бір жас жігіт
+Еріп келеді
+Еріп келеді
+Еріп келеді
+`,
+        translation: `Early in the morning, a beautiful girl
+ Comes to fetch some water,
+ Comes to fetch some water,
+ Comes to fetch some water.
+ A young man leads his horse
+ And follows after her,
+ Follows after her,
+ Follows after her.
+`,
+      },
+      {
+        label: 'Chorus',
+        original: `Тоқтаңыз сұлу қыз су іздеген
+Танысқым келеді менің сізбен
+Айтыңыз атыңыз кім болады
+Танысып көрмеген бұрын қызбен
+`,
+        translation: `Wait, beautiful girl, you came for water.
+ I'd like to get to know you.
+ Tell me, what is your name?
+ I've never met a girl like you before.
+`,
+      },
+      {
+        label: 'Verse - song You Are More Beautiful Than Anything',
+        original: `Жаз гүліндей жайнаған
+Масатыдай жер сұлу
+Аққу-қаздар тойлаған
+Айдын шалқар көл сұлу
+`,
+        translation: `The land is beautiful, blooming like summer flowers;
+ The earth is lovely as velvet.
+ Swans and geese celebrate,
+ And the wide lake is beautiful.
+`,
+      },
+      {
+        label: 'Chorus',
+        original: `Өзгеден де ең сұлу
+Өмірлік дос тең сұлу
+Өзім сүйіп ұнатқан
+Бәрінен де сен сұлу сен сұлу
+`,
+        translation: `You are more beautiful than anyone,
+ A friend for life, beautiful and true.
+ The one I love, the one I chose—
+ You are the fairest of them all.
+`,
+      },
+      {
+        label: 'Verse - song Wedding Song',
+        original: `Махаббатың құдірет күші әлдилеп
+Екі жастың табыстырған жүрегін
+Жастық жалын, асыл арман, ақ ниет
+Бақыт сыйлап ұсыныпты гүлдерін
+`,
+        translation: `The power of love gently rocks us,
+ Bringing two young hearts together.
+ The flame of youth, precious dreams, and pure intentions
+ Have offered us flowers of happiness.
+`,
+      },
+      {
+        label: 'Chorus',
+        original: `Той үстінде тәтті күндер, тәтті күндер
+Жас жұбайлар шат күліңдер, шат күліңдер
+Ән салайық би билейік, би билейік
+Шарықтасын шаттық үндер, шаттық үндер
+`,
+        translation: `Sweet days at the wedding, sweet days!
+ Newlyweds, laugh with joy, laugh with joy!
+ Let's sing and dance, let's sing and dance—
+ Let the sounds of happiness rise!
+`,
+      },
+      {
+        label: 'Verse - song Where Are You? (Kazakh part)',
+        original: `Күндіз де, түнде де сені іздедім
+Кімсін сен, қайдасын – соны білмедім
+Бірде барсын, бірде жоқ, сен бір елессін
+Түнде, таңда маған келесін
+`,
+        translation: `I have searched for you day and night.
+ Who are you, where are you? I don’t know.
+ Sometimes you appear, sometimes you're gone
+ You're like a vision,
+ Coming to me at night and at dawn.
+`,
+      },
+      {
+        label: 'Chorus (Russian part)',
+        original: `Днем и ночью я ищу давнюю мечту
+Но не зная, кто она, все равно ищу
+Ты приходишь как мираж в предрассветном сне
+Но, я верю, мой счастье улыбнется мне
+`,
+        translation: `Day and night, I search for an old dream.
+ Though I don't know who she is, I keep looking.
+ You come like a mirage in the dream before dawn,
+ But I believe happiness will one day smile upon me.
+`,
+      },
+    ],
+  },
 
 
   /* ─────────────── PASTE HERE: MORE SONGS ───────────────
