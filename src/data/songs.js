@@ -45,261 +45,250 @@
 
 // Re-used blocks (so the chorus is typed only once). You can do the same for
 // your teammates' songs: define a const, then put it in `sections` several times.
-const ayta_chorus = {
+const betperde_chorus = {
   label: 'Chorus',
-  original: `О, не болды, не болды, не болды, не болды саған?
-Мұңаюдың жоқ себебі, себебі жоқ!
-О, не болды, не болды, не болды, не болды саған?
-Өмір – ұзақ жол, жоғалтып алма өзіңді осы жолда!
-Жүрегіңнен сұра, басқадан сұрама!
-Сүріндің бе – шыда!
-Деп айтып еді мама...
-Кетер өтіп бұл да,
-Үміттің шырағы қолыңда!
-Айта берсін, айта берсін жұрт!
-Айта берсін, айта берсін...
-Айта берсін, айта берсін жұрт!
-Айта берсін, айта берсін...
-Айта берсін, айта берсін жұрт!`,
-  translation: `Oh, what's wrong, what's wrong, what's wrong, what's wrong with you?
-There's no reason to be sad — no reason at all!
-Oh, what's wrong, what's wrong, what's wrong, what's wrong with you?
-Life is a long road — don't lose yourself along the way!
-Ask your own heart, don't ask anyone else!
-Stumbled? Hold on!
-That's what Mama used to say...
-This too shall pass,
-The lamp of hope is in your hands!
-Let them talk, let people talk!
-Let them talk, let them talk...
-Let them talk, let people talk!
-Let them talk, let them talk...
-Let them talk, let people talk!`,
+  original: `Сен
+Кетуге болдың жылдам
+Жасадым оң бір қадам
+Қаламадым сенің кеткеніңді
+Мен
+Болдым сезіміңе алдам
+Бірақ сезімін сенің жалған
+Көрсеттің тек қана бетпердеңді
+`,
+  translation: `You
+ Were so quick to leave.
+ I took one step forward,
+ Though I never wanted you to go.
+ And I
+ I was deceived by your feelings,
+ But your love was never true.
+ All you showed me
+ Was the mask you wore.`,
 };
 
-const qazaqpyn_chorus = {
+const dop_chorus = {
   label: 'Chorus',
-  original: `Бұл кім десең? Мен қазақпын,
-мың өліп, мың тірілген!
-Көк байрақ туым бар,
-елім бар, жерім бар, оооо!
-Бұл кім десең? Мен қазақпын,
-мың өліп, мың тірілген!
-Көк байрақ туым бар,
-елім бар, жерім бар, оооо!`,
-  translation: `Who is this, you ask? I am Kazakh,
-who died a thousand times and rose a thousand times!
-I have my blue flag,
-I have my nation, I have my land, oh!
-Who is this, you ask? I am Kazakh,
-who died a thousand times and rose a thousand times!
-I have my blue flag,
-I have my nation, I have my land, oh!`,
+  original: `Мама, мама енді күнде-күнде гүл шығад иә.
+Ісің оңнан реттеледі, ісің оңалад(ы)
+Далада жүреді балаң добы домалап иә, добы домалап иә, добы домалап
+ 
+Өткен күнде көрдің көреріңді
+Енді алда тауыспасын саған берерімді
+Өтпелі ғой алда қарап тұрсаң, өкпелі болу да бұл да бір заң
+`,
+  translation: `Mama, Mama, flowers will bloom every day now, 
+ Things will fall into place; life will get better.
+ Your child will be outside, rolling a ball along
+ Yes, rolling that ball, rolling that ball.
+You have already seen what the past had to show you.
+ May I never run out of things I wish to give you.
+ Everything passes; when you look ahead,
+ Even sorrow has its place in the order of things.
+`,
+};
+
+const daiynbyzBa_chorus = {
+  label: 'Chorus',
+  original: `Ұялып, бата алмаймын көздеріңе жай қарауға
+Сыңғырлы күлкіңнен дүрсіл қағып жүрегім
+Көзіме қарап айтшы біз дайынбыз ба жаңа тарауға?
+Жарқын жаққа
+Үмітпенен қарап тұр едім!
+`,
+  translation: `I’m too shy to look straight into your eyes.
+ Your ringing laughter makes my heart race.
+ Look into my eyes and tell me:
+ Are we ready to begin a new chapter?
+ I was looking ahead
+ With hope for brighter days.
+`,
+};
+
+const daiynbyzBa_bridge = {
+  label: 'Bridge',
+  original: `Иә, сені таптым
+Жаныма жақын
+Мендегі жүрек
+Саған ғана ғашық
+Иә, сені таптым
+Мені жоғалтпашы
+Әлемім ашық, саған ғана ашық
+`,
+  translation: `Yes, I've found you,
+ Someone close to my soul.
+ The heart inside me
+ Is in love with you alone.
+ Yes, I've found you
+ Please don't lose me.
+ My world is open,
+ Open only to you.`,
 };
 
 export const songs = [
   /* ───────────────────────── SONG 1 ───────────────────────── */
   {
-    id: 'ayta-bersin',
-    title: 'Айта берсін',
-    titleTranslated: 'Let Them Talk',
-    artist: 'Жанар Дұғалова (Zhanar Dugalova)',
+    id: 'boiyBolgan',
+    title: 'Boiy Bolgan',
+    titleTranslated: 'Abay',
+    artist: '',
     performers: '', // PASTE HERE: e.g. 'Vocals: Aruzhan · Guitar: Dias'
     sections: [
       {
         label: 'Verse 1',
-        original: `Сен өзіңді алдайсың,
-Арманға жете алмайсың, дейді олар.
-Шын бақыттан шалғайсың,
-Жұлдыз болып жанбайсың,
-Шыңдарға шыға алмайсың,
-Сындарға шыдамайсың, дейді олар.
-Бұл әлем өзгермейді,
-Қолыңнан түк келмейді, дейді олар.
-Талпынсаң да сен мейлі,
-Тағдыр жеңіс бермейді, дейді.
-Сен мындайсың, сондайсың,
-Ең бірінші болмайсың, дейді олар.`,
-        translation: `"You're only fooling yourself,
-You'll never reach your dream," they say.
-"You're far from real happiness,
-You'll never shine like a star,
-You'll never climb to the peaks,
-You can't stand up to the trials," they say.
-"This world isn't going to change,
-You can't do a single thing," they say.
-"Strive as hard as you like,
-Fate won't hand you a victory," they say.
-"You're like this, you're like that,
-You'll never come first," they say.`,
+        original: `Бойы бұлғаң
+Сөзі жылмаң
+Кімді көрсем, мен сонан
+Бетті бастым
+Қатты састым
+Тұра қаштым жалма-жан
+`,
+        translation: `He sways as he walks,
+ His words are smooth and slick.
+ Whenever I see someone like that,
+ I cover my face in shock
+ And quickly turn to run.`,
       },
-      ayta_chorus,
       {
         label: 'Verse 2',
-        original: `Сенімен санаспайды,
-Ештеңе жараспайды, дейді олар.
-Сөз қылады, тынбайды:
-«Көрмеп едік мұндайды,
-Жанталасып қоймайды,
-Өзін кім деп ойлайды?» дейді олар.
-Құлақ аспа бәріне,
-Алда талай әлі де белес болар.
-Жасқанбашы, жасыма,
-Бақыт құсы басыңа келіп қонар!
-Баса бер тек ілгері,
-Барлық қиын күндерің артта қалар!`,
-        translation: `They don't take you seriously,
-"Nothing suits her," they say.
-They gossip and never stop:
-"We've never seen anything like it,
-She just won't stop trying so hard,
-Who does she think she is?" they say.
-Don't listen to any of them,
-Many more summits still lie ahead.
-Don't be afraid, don't lose heart,
-The bird of happiness will come and land on you!
-Just keep pushing forward,
-All your hard days will be left behind!`,
+        original: `Өз ойында
+Тұл бойында
+Бір міні жоқ пендесіп
+Түзде мырзаң
+Үйде сырдаң
+Сөзі қылжаң еркесіп
+`,
+        translation: `In his own eyes,
+ He has not a single flaw.
+ A gentleman out in the world,
+ At home, distant and cold,
+ Always joking, always charming.`,
       },
-      ayta_chorus,
       {
-        label: 'Final',
-        original: `Сен өзіңді алдайсың,
-Арманға жете алмайсың, дейді олар.
-О, не болды, не болды, не болды, не болды саған?
-Жүрегіңнен сұра, басқадан сұрама!
-Сүріндің бе – шыда!
-Деп айтып еді мама...
-Кетер өтіп бұл да,
-Үміттің шырағы қолыңда!
-Айта берсін, айта берсін жұрт!
-Жүрегіңнен сұра, басқадан сұрама!
-Сүріндің бе – шыда!
-Деп айтып еді мама...
-Кетер өтіп бұл да,
-Үміттің шырағы қолыңда!
-Айта берсін, айта берсін жұрт!
-Айта берсін, айта берсін...
-Айта берсін, айта берсін жұрт!
-Айта берсін, айта берсін...
-Айта берсін, айта берсін жұрт!`,
-        translation: `"You're only fooling yourself,
-You'll never reach your dream," they say.
-Oh, what's wrong, what's wrong, what's wrong, what's wrong with you?
-Ask your own heart, don't ask anyone else!
-Stumbled? Hold on!
-That's what Mama used to say...
-This too shall pass,
-The lamp of hope is in your hands!
-Let them talk, let people talk!
-Ask your own heart, don't ask anyone else!
-Stumbled? Hold on!
-That's what Mama used to say...
-This too shall pass,
-The lamp of hope is in your hands!
-Let them talk, let people talk!
-Let them talk, let them talk...
-Let them talk, let people talk!
-Let them talk, let them talk...
-Let them talk, let people talk!`,
+        label: 'Verse 3',
+        original: `Бас құрасып
+Мал сұрасып
+Бермегенмен кетісер
+Адам аулап
+Сыпыра саулап
+Байды жаулап жетісер
+`,
+        translation: `They talk of marriage,
+ They talk of wealth;
+ If they cannot agree, they part.
+ He hunts for people,
+ Spreads his words everywhere,
+ And wins the favour of the rich.`,
+      },
+      {
+        label: 'Verse 4',
+        original: `Сөз қыдыртқан
+Жұрт құтыртқан
+Антын, арын саудалап
+Бұтты-шатты
+Үй санатты
+Байдан атты алмалап
+`,
+        translation: `He trades away his promises and honour,
+ Makes a mess of everything,
+ And swaps one wealthy match for another.
+The poor man is still a man,
+ But his troubles are great.
+`,
+      },
+      {
+        label: 'Verse 5',
+        original: `Кедейі — ер
+Кеселі зор
+Малды байдан сорлы жоқ
+Аш көмектің
+Жемдемектің
+Босқа әлектің орны жоқ
+`,
+        translation: `There is no one more wretched
+ Than a rich man who hoards his wealth.
+ There is no place for empty schemes,
+ For feeding on another's kindness
+ And causing needless trouble.`,
+      },
+      {
+        label: 'Verse 6',
+        original: `Су жұғар ма
+Сөз ұғар ма
+Сыпыра жылмаң желбуаз?
+Айтты — көндім
+Алды — бердім
+Енді өкіндім — өзіме аз
+`,
+        translation: `Will water ever stick to him?
+ Will he ever understand a word?
+ Always slippery, always full of empty talk.
+ He said it, and I agreed;
+ He took it, and I gave it.
+ Now I regret it—
+ But that regret is not enough.
+`,
       },
     ],
   },
 
   /* ───────────────────────── SONG 2 ───────────────────────── */
-  // NOTE for teammates: lyrics as you sent them, with broken lines re-joined and
-  // obvious typos fixed (журегим → жүрегім, білмейсін → білмейсің, байрак → байрақ…).
-  // A few lines had typos in the source text, so their translation is a best
-  // reading — please double-check the lines marked ⟨?⟩ in the translation.
   {
-    id: 'men-qazaqpyn',
-    title: 'Мен қазақпын',
-    titleTranslated: 'I Am Kazakh',
-    artist: 'Ерболат Құдайбергенов (Yerbolat Kudaibergenov)',
+    id: 'betperde',
+    title: 'Betperde',
+    titleTranslated: 'Behind the mask',
+    artist: '',
     performers: '', // PASTE HERE
     sections: [
       {
         label: 'Verse 1',
-        original: `Мен қазақпын, мың өліп, мың тірілген,
-Жүрегіңмен таныстым мың тіліммен.
-Жылағанда жүрегім күн тұтылып,
-Қуанғанда күлкімнен түн түрілген.
-Руым көп, солардың ақ Тарғындай,
-Мінезім бар таулардың қақпарындай,
-Жырым бар бабалардың хаттарындай,
-Әжімім бар бейнеттің таптарындай.
-Қашан қазақ атандым мен азандап,
-Әлі күнге дейін білмейсің, ей адамзат!
-Адамзат есіміне береді бала жасын,
-Құлпытасты жұлқыған кей азамат.`,
-        translation: `I am Kazakh — who died a thousand times and rose a thousand times,
-I came to know your heart through a thousand tongues.
-When I wept, the sun went dark in eclipse,
-When I rejoiced, my laughter rolled the night away.
-My clans are many, each like the noble hero Targyn,
-My nature is like the stone ramparts of the mountains,
-My songs are like letters from my ancestors,
-My wrinkles are like the marks that hardship left.
-When was I first named Kazakh, with a call to prayer?
-To this very day you do not know, O humankind!
-⟨?⟩ Humankind gives its youth to keep its name alive,
-⟨?⟩ Like the brave ones who shook the ancient gravestones.`,
+        original: `Күндер ертегі еді сенімен расында
+Балаша тамсанушы едім даусыңа
+Анаша тепкендей бақытсыз басыма
+Секілді еді сен болсаң қасымда
+
+Бір өкініш, бір баспана
+Сырыңды айттың бір сәтте сен
+жасқана
+Артыңа қарамай сатылдың басқаға
+Енді естерсің өкпемді мына таспадан
+`,
+        translation: `The days with you truly felt like a fairy tale.
+ I used to listen to your voice with childlike wonder.
+ It felt as though fate had dealt me a cruel hand,
+ Yet everything seemed all right when you were beside me.
+ One regret, one shelter—
+ You revealed your secret to me one day,
+ Hesitantly.
+ Then you turned away without looking back
+ And gave yourself to someone else.
+ Now you'll hear my hurt in this recording.`,
       },
-      {
-        label: 'Pre-Chorus',
-        original: `Қару жолда, малы терде, бала белде,
-Уайым төрі, теңіз қойы, бара берме, оооо!
-Жігер керек, жыр керек, жалау керек,
-Қайрат түбі боп төгіл қара елге, оооо!
-Па, шіркін!`,
-        translation: `Weapons on the road, herds on the pasture, children at our side,
-⟨?⟩ Worry in the place of honour — don't keep drifting on, oh!
-We need courage, we need song, we need a banner,
-Pour out like the deepest strength upon your people, oh!
-Ah, how glorious!`,
-      },
-      qazaqpyn_chorus,
-      {
-        label: 'Interlude',
-        original: `Па, шіркін! Япырмай!`,
-        translation: `Ah, how glorious! Oh my!`,
-      },
+      betperde_chorus,
       {
         label: 'Verse 2',
-        original: `Мен қазақпын, мың өліп, мың тірілген,
-Жүрегіңмен таныстым мың тіліммен.
-Жылағанда жүрегім күн тұтылып,
-Қуанғанда күлкімнен түн түрілген.
-Мен қазақпын, қырғыз ұлы туысқан,
-Бірге тартқан тарланның құйысқанын.
-Арамызда қара көз бір қыз, бәлкім,
-Бөліп берген егізге уыс нанын.
-Мен қазақпын, бір биік емеспін мен,
-Еуропада, Азияда емеспін мен,
-Маралықтың жетінші материгі,
-Кей бір барыс жақ адаммен терістім мен.
-Мен ҚАЗАҚПЫН — байтақ елім,
-Қайта тудым, өмірге қайта келдім!
-Мен мұндағы тірілдім мәңгі өлмеске,
-Айта бергім келеді, айта бергім!`,
-        translation: `I am Kazakh — who died a thousand times and rose a thousand times,
-I came to know your heart through a thousand tongues.
-When I wept, the sun went dark in eclipse,
-When I rejoiced, my laughter rolled the night away.
-I am Kazakh, brother to the Kyrgyz people,
-Together we held the reins of the same swift steed.
-Between us, perhaps, a dark-eyed girl
-Once split a handful of bread between twins.
-I am Kazakh — I am no single summit,
-I am neither only Europe nor only Asia,
-⟨?⟩ I am the seventh continent of the free steppe,
-⟨?⟩ Some, like snow leopards, I have stood apart from.
-I AM KAZAKH — my vast homeland,
-I was born again, I came back to life!
-Here I rose again, never to die,
-I want to keep saying it, keep saying it!`,
+        original: `Сыр емес болса да айтайын бірдеңе
+Өтірігің - әлі ауыр тас кеудеме
+Итке сүйектей тойдырдың уәдеге
+Адал болмадың басынан сен неге?
+ 
+Енді кеп жылама, көрсетпе өкпеңді
+Кешірім сұрауға бәрі де кеш енді
+Мен емес ханшайым, бітті ғой ертегі
+Бәрі айдан анық, бетперде шеш енді!
+`,
+        translation: `Even if it's nothing new, let me say this:
+ Your lies still weigh on my chest like stone.
+ You fed me promises like scraps thrown to a dog.
+ Why were you never honest from the start?
+Don't come crying now; don't show me your hurt.
+ It's too late to ask for forgiveness.
+ I'm no princess - our fairy tale is over.
+ Everything is crystal clear. Take off your mask.
+`,
       },
-      qazaqpyn_chorus,
+      betperde_chorus,
+      betperde_chorus,
     ],
   },
 
@@ -307,110 +296,119 @@ I want to keep saying it, keep saying it!`,
   // Demo song written just to show the layout. Replace with a real song,
   // or delete this whole { ... } block.
   {
-    id: 'seul-tunderi',
-    title: 'Сеул түндері',
-    titleTranslated: 'Seoul Nights',
-    artist: 'Placeholder · KSAK Band',
+    id: 'dop',
+    title: 'DOP',
+    titleTranslated: 'Dop/Ball',
+    artist: '',
     performers: '',
     sections: [
+      dop_chorus,
       {
+        
         label: 'Verse 1',
-        original: `Сеулдің шамдары жанады түнде,
-Ойым ұшады туған жерге.
-Хан өзені ағады баяу,
-Жүрегімде — дала мен тау.`,
-        translation: `Seoul's lights are burning through the night,
-My thoughts fly back to my homeland.
-The Han River flows slowly by,
-In my heart — the steppe and the mountains.`,
+        original: `Дәптерден сырты ойылған,
+Суретті тауып алған кезде
+Сұрақ келді ойыма:
+Айтшы бұл көңіл ояна ала ма кезіндей басынан бастап?!
+ 
+Сау адамдар аурудың сөзімен сөйлеген,
+Сыналмайтын сан түрлі суретті түгендегендер
+Лайықсыз, өзіңе лайықсыз істерді істемей, ондай жерден кет сен.
+ 
+Егер сенбесе, сен сендір,
+Өзіңмен өзің бірге бір
+Егер болмаса бәрібір басынан баста
+`,
+        translation: `I found a picture
+ With its edges torn from an old notebook.
+ A question came to mind:
+ Tell me, can this heart awaken
+ And begin again, just as it once did?
+Healthy people spoke in the language of the sick;
+ Some collected countless images that could never be tested.
+ Don't do what is unworthy of you.
+ Leave any place that asks you to become someone you're not.
+If they don't believe you, make them believe.
+ Stand together with yourself.
+ And if that doesn't work, begin again anyway.
+`,
       },
-      {
-        label: 'Chorus',
-        original: `Алыста болсам да, сен менімен,
-Әнім ұшсын жұлдыздармен.
-Сеул түндері, Алматы таңы —
-Бір жүректе екі отаным.`,
-        translation: `Even though I'm far away, you are with me,
-Let my song fly up with the stars.
-Seoul nights, Almaty mornings —
-Two homelands in a single heart.`,
-      },
+      dop_chorus,
       {
         label: 'Verse 2',
-        original: `Метрода келем, құлақта әуен,
-Анамның даусы — ең жылы әуен.
-Досым жанымда, күлкі мен жыр,
-Біз бірге болсақ, бәрі де бір.`,
-        translation: `Riding the subway, music in my ears,
-My mother's voice — the warmest tune of all.
-My friend beside me, laughter and song,
-When we're together, everything's alright.`,
-      },
-      {
-        label: 'Chorus',
-        original: `Алыста болсам да, сен менімен,
-Әнім ұшсын жұлдыздармен.
-Сеул түндері, Алматы таңы —
-Бір жүректе екі отаным.`,
-        translation: `Even though I'm far away, you are with me,
-Let my song fly up with the stars.
-Seoul nights, Almaty mornings —
-Two homelands in a single heart.`,
+        original: `Уысым толмас, оны қысып ұстап алсам,
+Дұрысы сол ма, шын ба, шыңға шыңар адам болмасам?!
+ 
+Енді допты домалатып келем ойларым мынау,
+Үй де домалатып сала берем, болса да сынау.
+Менен қалсын бүкіл айласы.
+Болам сабырдың мен айнасы
+`,
+        translation: `If I close my fist and hold on tightly,
+ Would that really be right?
+ What if I never become someone who can reach the summit?
+Now I keep the ball rolling, and these are my thoughts:
+ I'll keep moving forward, even if life puts me to the test.
+ Let all the clever tricks end with me.
+ I will become the very image of patience.
+`,
       },
     ],
   },
 
   /* ─────────────── SONG 4 — PLACEHOLDER (replace me) ─────────────── */
   {
-    id: 'dala-aueni',
-    title: 'Дала әуені',
-    titleTranslated: 'Melody of the Steppe',
-    artist: 'Placeholder · KSAK Band',
+    id: 'daiynbyzBa',
+    title: 'Daiynbyz ba?',
+    titleTranslated: 'Are we ready for it?',
+    artist: '',
     performers: '',
     sections: [
-      {
-        label: 'Intro',
-        original: `Домбыра үні...`,
-        translation: `The sound of the dombra...`,
-      },
+      daiynbyzBa_chorus,
       {
         label: 'Verse 1',
-        original: `Кең даланың самалы
-Домбыраның сазын әкелер.
-Ата-бабам аманаты
-Әр жырымда қайта жаңғырар.`,
-        translation: `The breeze of the wide steppe
-Carries the dombra's tune to me.
-The legacy my ancestors left
-Comes alive again in every song.`,
+        original: `Әлі де сене алмаймын оған
+Түсімде жүргендеймін
+Дәл қазір құшағымда болсаңда
+Мен уайымдаймын неге?
+Тек бізге керегі
+Талпынсақ келеді
+Қиын сәттерде боламын серігің
+Тым жылы сен кезіккен жолдар
+Еріксіз еремін мен
+`,
+        translation: `I still can hardly believe it;
+ It feels like I'm living in a dream.
+ Even when you're in my arms right now,
+ Why am I still afraid?
+ All we need
+ Is to keep trying.
+ I'll stand beside you
+ When the hard times come.
+The paths where I met you feel so warm;
+ I find myself following them.
+`,
       },
+      daiynbyzBa_bridge,
+      dayinbyzBa_chorus,
       {
-        label: 'Chorus',
-        original: `Ән сал, досым, ән сал,
-Түн ұзақ, жол алыс.
-Ән сал, досым, ән сал,
-Әнде — біздің тамыр, біздің ырыс.`,
-        translation: `Sing, my friend, sing,
-The night is long, the road is far.
-Sing, my friend, sing,
-In song live our roots and our fortune.`,
+        label: 'Verse 2',
+        original: `Кіршіксіз сезімнің
+Екеуімізге берері мол
+Керегі төзім
+Сынайды сан қилы жол
+Табамын өзім
+Қолымнан ұстасаң болды
+`,
+        translation: `There is so much that pure love can give us.
+ All we need is patience;
+ The road will test us in countless ways.
+ I'll find my way
+ As long as you hold my hand.`,
       },
-      {
-        label: 'Bridge',
-        original: `Тұлпар шауып, жел соғып,
-Аспан көк, жер кең.
-Қай жерде жүрсем де,
-Даламның әні — менімен.`,
-        translation: `Horses racing, the wind blowing,
-The sky is blue, the land is wide.
-Wherever in the world I go,
-My steppe's song stays with me.`,
-      },
-      {
-        label: 'Outro',
-        original: `Ән сал, досым, ән сал...`,
-        translation: `Sing, my friend, sing...`,
-      },
+      daiynbyzBa_bridge,
+      dayinbyzBa_chorus,
+      dayinbyzBa_chorus
     ],
   },
 
